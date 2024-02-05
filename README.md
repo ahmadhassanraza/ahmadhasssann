@@ -1,22 +1,23 @@
 ### Hi there 👋
 ## I'm Ahmad Hassan
-I am a full stack developer with experience in developing web applications. I am passionate about creating clean and efficient code that delivers a great user experience. I am always looking for new challenges and enjoy working with a team to find innovative solutions to complex problems.
+I am a developer with experience in developing web applications. I am passionate about creating clean and efficient code that delivers a great user experience. I am always looking for new challenges and enjoy working with a team to find innovative solutions to complex problems.
 
 ### Skills
 
 - Programming languages: Typescript, JavaScript, Python
-- Front-end technologies: HTML, CSS, React, Nextjs
+- Front-end technologies: HTML, CSS, TailwindCSS, React, Nextjs
 - Back-end technologies: Node.js
 - Databases: MySQL, PostgreSQL, Neon
-- Tools: Git, VS Code, Slack
+- Tools: Git, VS Code, Docker, Slack
 
 #### Education
 BSCS in Computer Science 
 
-Courses: AI, Web3 and Metaverse
+Courses: 
+- IBM Full Stack Software Development
+- Cloud Applied Generative A.I Engineering (GenEng)
 
 Thank you for looking at my profile. Please get in touch with me if you're interested in working on a project together or if you have any queries.
-
 
 
 ## 📫 Contact
