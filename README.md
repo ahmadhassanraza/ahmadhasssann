@@ -1,5 +1,5 @@
 # Ahmad Hassan
-## ✨ DevOps Engineer | Full-Stack Developer 🚀 Streamlining Ops with Automation 
+## ✨ DevOps Engineer | Full-Stack Developer 🚀 Streamlining Ops with Opsven
 ## ✨ CI/CD Pipelines | Docker, Kubernetes | IaC | Cloud-Native • AWS/Azure/GCP 
 ## ✨ AI/MLOps Innovator 🚀 Building Agentic AI Infrastructure @Opsven 
 
@@ -13,7 +13,7 @@
 </div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Building+Next-Generation+Web+Applications;React+%7C+Node.js+%7C+Cloud+Architecture+Expert;Transforming+Ideas+into+Scalable+Digital+Solutions;Open+Source+Contributor+%7C+Tech+Enthusiast;Available+for+Senior+Developer+Positions" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.demolab.com/?lines=Building+Agentic-AI+Infrastructure+@Opsven;CI/CD+%7C+IaC+%7C+K8s+Docker+Expert;Transforming+Ideas+into+Scalable+Digital+Solutions;Open+Source+Contributor+%7C+Tech+Enthusiast;Available+for+Senior+Developer+Positions" alt="Typing Animation" />
 </p>
 
 <div align="center">
