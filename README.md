@@ -1,7 +1,3 @@
-# Ahmad Hassan
-## ✨ DevOps Engineer | Full-Stack Developer 🚀 Streamlining Ops with Opsven
-## ✨ AI/MLOps Innovator 🚀 Building Agentic AI Infrastructure @Opsven 
-
 <div align="center">
   <a href="https://ahrops.opsven.com">
     <img 
@@ -12,20 +8,20 @@
 </div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Building+Agentic-AI+Infrastructure+@Opsven;CI/CD+%7C+IaC+%7C+K8s+%7C+Docker+Expert;Cloud-Native+AWS+Azure+GCP;AI/MLOps+Innovator+%7C+Tech+Enthusiast;Available+for+DevOps+Positions" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.demolab.com/?lines=Building+Agentic-AI+Infrastructure+@Opsven;CI/CD+%7C+IaC+%7C+K8s+%7C+Docker+Expert;Cloud-Native+AWS+Azure+GCP;AI/MLOps+Innovator+%7C+@Opsven;Available+for+DevOps+Positions" alt="Typing Animation" />
 </p>
 
 <div align="center">
   
-[![Profile Views](https://komarev.com/ghpvc/?username=ahmadhasssann&label=Profile%20Views&color=0891b2&style=for-the-badge)](https://github.com/ahmadhasssann)
-[![GitHub Followers](https://img.shields.io/github/followers/ahmadhasssann?label=Followers&style=for-the-badge&color=blue&logo=github)](https://github.com/ahmadhasssann?tab=followers)
-[![Stars](https://img.shields.io/github/stars/s-ali007?label=Stars&style=for-the-badge&color=yellow&logo=github)](https://github.com/ahmadhasssann?tab=repositories)
+[![Profile Views](https://komarev.com/ghpvc/?username=ahmadhassanraza&label=Profile%20Views&color=0891b2&style=for-the-badge)](https://github.com/ahmadhassanraza)
+[![GitHub Followers](https://img.shields.io/github/followers/ahmadhassanraza?label=Followers&style=for-the-badge&color=blue&logo=github)](https://github.com/ahmadhassanraza?tab=followers)
+[![Stars](https://img.shields.io/github/stars/s-ali007?label=Stars&style=for-the-badge&color=yellow&logo=github)](https://github.com/ahmadhassanraza?tab=repositories)
 
 </div>
 
 <div align="center">
   
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=s-ali007&layout=compact&theme=tokyonight&langs_count=6&hide_border=true)](https://github.com/ahmadhasssann)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ahmadhassanraza&layout=compact&theme=tokyonight&langs_count=6&hide_border=true)](https://github.com/ahmadhassanraza)
 
 </div>
 
