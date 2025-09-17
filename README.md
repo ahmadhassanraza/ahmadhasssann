@@ -15,7 +15,7 @@
   
 [![Profile Views](https://komarev.com/ghpvc/?username=ahmadhassanraza&label=Profile%20Views&color=0891b2&style=for-the-badge)](https://github.com/ahmadhassanraza)
 [![GitHub Followers](https://img.shields.io/github/followers/ahmadhassanraza?label=Followers&style=for-the-badge&color=blue&logo=github)](https://github.com/ahmadhassanraza?tab=followers)
-[![Stars](https://img.shields.io/github/stars/s-ali007?label=Stars&style=for-the-badge&color=yellow&logo=github)](https://github.com/ahmadhassanraza?tab=repositories)
+[![Stars](https://img.shields.io/github/stars/ahmadhassanraza?label=Stars&style=for-the-badge&color=yellow&logo=github)](https://github.com/ahmadhassanraza?tab=repositories)
 
 </div>
 
@@ -174,7 +174,7 @@ console.log("🎯 AI Native DevOps Engineer Profile Loaded Successfully!");
 
 ### 🌟 **Enterprise-Grade Portfolio - ATSU Tech**
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Site-success?style=for-the-badge&logo=netlify)](https://atsu-tech-00007.netlify.app/)
-[![Source Code](https://img.shields.io/badge/📝_Source-View_Code-blue?style=for-the-badge&logo=github)](https://github.com/s-ali007)
+[![Source Code](https://img.shields.io/badge/📝_Source-View_Code-blue?style=for-the-badge&logo=github)](https://github.com/ahmadhassanraza)
 
 **🎯 Project Overview:** Modern, high-performance portfolio showcasing advanced web technologies  
 **🏗️ Architecture:** JAMstack with Next.js 14, Server Components, and Edge Functions  
@@ -247,7 +247,7 @@ Features: {
 | **Task Management System** | Enterprise | MERN, Redis, Docker | ✅ Complete | [Demo](https://demo-link.com) |
 | **Real-time Analytics Dashboard** | Data Viz | React, D3.js, Node.js | ✅ Complete | [View](https://demo-link.com) |
 
-[![View All Projects](https://img.shields.io/badge/🚀_View_All_Projects-Explore_Portfolio-FF6B6B?style=for-the-badge&logo=github)](https://github.com/s-ali007?tab=repositories)
+[![View All Projects](https://img.shields.io/badge/🚀_View_All_Projects-Explore_Portfolio-FF6B6B?style=for-the-badge&logo=github)](https://github.com/ahmadhassanraza?tab=repositories)
 
 </div>
 
@@ -258,20 +258,20 @@ Features: {
 <div align="center">
 
 ### 📈 **Performance Metrics & Statistics**
-<img height="200em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=s-ali007&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&custom_title=🏆%20Ali's%20GitHub%20Performance&show_owner=true" />
-<img height="200em" src="https://streak-stats.demolab.com?user=s-ali007&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=400&ring=09adb8&fire=09adb8&currStreakLabel=09adb8" />
+<img height="200em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=ahmadhassanraza&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&custom_title=🏆%20Ali's%20GitHub%20Performance&show_owner=true" />
+<img height="200em" src="https://streak-stats.demolab.com?user=ahmadhassanraza&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=400&ring=09adb8&fire=09adb8&currStreakLabel=09adb8" />
 
 ### 💻 **Code Distribution & Language Expertise**
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=s-ali007&layout=compact&theme=tokyonight&hide_border=true&langs_count=12&custom_title=🔥%20Language%20Expertise%20Breakdown&card_width=600" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmadhassanraza&layout=compact&theme=tokyonight&hide_border=true&langs_count=12&custom_title=🔥%20Language%20Expertise%20Breakdown&card_width=600" />
 
 ### 🏆 **Achievement Showcase**
-<img src="https://github-profile-trophy.vercel.app/?username=s-ali007&theme=tokyonight&row=3&column=4&margin-h=8&margin-w=8&no-bg=false&no-frame=false&title=MultiLanguage,Followers,Stars,Commit,PullRequest,Issues,Repositories,Organizations,Experience,Reviews,Discussions,Sponsors" width="100%"/>
+<img src="https://github-profile-trophy.vercel.app/?username=ahmadhassanraza&theme=tokyonight&row=3&column=4&margin-h=8&margin-w=8&no-bg=false&no-frame=false&title=MultiLanguage,Followers,Stars,Commit,PullRequest,Issues,Repositories,Organizations,Experience,Reviews,Discussions,Sponsors" width="100%"/>
 
 ### 📊 **Detailed Contribution Insights**
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=s-ali007&bg_color=1a1b27&color=38bdae&line=70a5fd&point=bf91f3&area=true&hide_border=true&custom_title=Annual%20Contribution%20Activity%20Graph" width="100%">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ahmadhassanraza&bg_color=1a1b27&color=38bdae&line=70a5fd&point=bf91f3&area=true&hide_border=true&custom_title=Annual%20Contribution%20Activity%20Graph" width="100%">
 
 ### 🎯 **Advanced Statistics**
-![GitHub metrics](https://metrics.lecoq.io/s-ali007?template=classic&base.header=0&base.activity=0&base.community=0&base.repositories=0&base.metadata=0&achievements=1&achievements.threshold=C&achievements.secrets=true&achievements.display=detailed&achievements.limit=0&config.timezone=Asia%2FKarachi)
+![GitHub metrics](https://metrics.lecoq.io/ahmadhassanraza?template=classic&base.header=0&base.activity=0&base.community=0&base.repositories=0&base.metadata=0&achievements=1&achievements.threshold=C&achievements.secrets=true&achievements.display=detailed&achievements.limit=0&config.timezone=Asia%2FKarachi)
 
 </div>
 
@@ -393,7 +393,7 @@ interface ServiceRates {
 [![Email](https://img.shields.io/badge/📧_Email-ali.techtribe007@gmail.com-D14836?style=for-the-badge&logoColor=white)](mailto:ali.techtribe007@gmail.com)
 [![Calendar](https://img.shields.io/badge/📅_Schedule-Book_Meeting-4285F4?style=for-the-badge&logoColor=white)](https://calendly.com/ali-hassan-dev)
 [![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Professional_Profile-0077B5?style=for-the-badge&logoColor=white)](#)
-[![GitHub](https://img.shields.io/badge/👨‍💻_GitHub-Follow_Projects-100000?style=for-the-badge&logoColor=white)](https://github.com/s-ali007)
+[![GitHub](https://img.shields.io/badge/👨‍💻_GitHub-Follow_Projects-100000?style=for-the-badge&logoColor=white)](https://github.com/ahmadhassanraza)
 [![Twitter](https://img.shields.io/badge/🐦_Twitter-Tech_Updates-1DA1F2?style=for-the-badge&logoColor=white)](#)
 [![Discord](https://img.shields.io/badge/💬_Discord-Join_Community-5865F2?style=for-the-badge&logoColor=white)](#)
 
@@ -656,7 +656,7 @@ Workshop Series: "Modern Web Development"
 <td align="center" width="50%">
 
 **🔥 React Performance Tools**
-[![GitHub](https://img.shields.io/github/stars/s-ali007/react-performance-tools?style=social)](https://github.com/s-ali007)
+[![GitHub](https://img.shields.io/github/stars/ahmadhassanraza/react-performance-tools?style=social)](https://github.com/ahmadhassanraza)
 - Performance monitoring utilities for React apps
 - 500+ GitHub stars ⭐
 - 50+ contributors worldwide
@@ -666,7 +666,7 @@ Workshop Series: "Modern Web Development"
 <td align="center" width="50%">
 
 **⚡ Next.js Starter Template**
-[![GitHub](https://img.shields.io/github/stars/s-ali007/nextjs-enterprise-starter?style=social)](https://github.com/s-ali007)
+[![GitHub](https://img.shields.io/github/stars/ahmadhassanraza/nextjs-enterprise-starter?style=social)](https://github.com/ahmadhassanraza)
 - Enterprise-ready Next.js boilerplate
 - 800+ GitHub stars ⭐
 - TypeScript, Testing, CI/CD included
@@ -678,7 +678,7 @@ Workshop Series: "Modern Web Development"
 <td align="center" width="50%">
 
 **🎨 UI Component Library**
-[![GitHub](https://img.shields.io/github/stars/s-ali007/modern-ui-components?style=social)](https://github.com/s-ali007)
+[![GitHub](https://img.shields.io/github/stars/ahmadhassanraza/modern-ui-components?style=social)](https://github.com/ahmadhassanraza)
 - Reusable React components
 - Tailwind CSS integration
 - Full TypeScript support
@@ -688,7 +688,7 @@ Workshop Series: "Modern Web Development"
 <td align="center" width="50%">
 
 **🛠️ Developer Productivity Tools**
-[![GitHub](https://img.shields.io/github/stars/s-ali007/dev-productivity-suite?style=social)](https://github.com/s-ali007)
+[![GitHub](https://img.shields.io/github/stars/ahmadhassanraza/dev-productivity-suite?style=social)](https://github.com/ahmadhassanraza)
 - VS Code extensions and tools
 - CLI utilities for developers
 - Workflow automation scripts
@@ -725,9 +725,9 @@ interface CommunityImpact {
 ```
 
 ### 📊 **Open Source Impact Stats**
-![Open Source Stats](https://github-readme-stats.vercel.app/api?username=s-ali007&show_icons=true&theme=tokyonight&count_private=false&include_all_commits=false&custom_title=Open%20Source%20Contributions)
+![Open Source Stats](https://github-readme-stats.vercel.app/api?username=ahmadhassanraza&show_icons=true&theme=tokyonight&count_private=false&include_all_commits=false&custom_title=Open%20Source%20Contributions)
 
-[![GitHub Sponsor](https://img.shields.io/badge/💖_Sponsor-Support_My_Work-EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/s-ali007)
+[![GitHub Sponsor](https://img.shields.io/badge/💖_Sponsor-Support_My_Work-EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/ahmadhassanraza)
 
 </div>
 
@@ -879,7 +879,7 @@ AI/ML             ██████████                     30%
 ```
 
 ### 🎯 **GitHub Insights - Advanced Analytics**
-![GitHub Metrics](https://metrics.lecoq.io/s-ali007?template=classic&base.header=0&base.activity=0&base.community=0&base.repositories=0&base.metadata=0&languages=1&languages.limit=8&languages.threshold=0%25&languages.other=false&languages.colors=github&languages.sections=most-used&languages.indepth=false&languages.analysis.timeout=15&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&config.timezone=Asia%2FKarachi)
+![GitHub Metrics](https://metrics.lecoq.io/ahmadhassanraza?template=classic&base.header=0&base.activity=0&base.community=0&base.repositories=0&base.metadata=0&languages=1&languages.limit=8&languages.threshold=0%25&languages.other=false&languages.colors=github&languages.sections=most-used&languages.indepth=false&languages.analysis.timeout=15&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&config.timezone=Asia%2FKarachi)
 
 </div>
 
@@ -959,7 +959,7 @@ const currentStatus = {
 
 **🌟 Explore My Work**
 [![Portfolio](https://img.shields.io/badge/View_Portfolio-🌐_atsu--tech-FF6B6B?style=for-the-badge)](https://atsu-tech-00007.netlify.app/)
-[![All Repositories](https://img.shields.io/badge/Browse_Code-📂_Repositories-4ECDC4?style=for-the-badge)](https://github.com/s-ali007?tab=repositories)
+[![All Repositories](https://img.shields.io/badge/Browse_Code-📂_Repositories-4ECDC4?style=for-the-badge)](https://github.com/ahmadhassanraza?tab=repositories)
 
 </td>
 <td align="center" width="33%">
@@ -972,8 +972,8 @@ const currentStatus = {
 <td align="center" width="33%">
 
 **⭐ Support My Work**
-[![Star Repositories](https://img.shields.io/badge/Star_Projects-⭐_GitHub-BB8FCE?style=for-the-badge)](https://github.com/s-ali007)
-[![Follow Profile](https://img.shields.io/badge/Follow_Journey-👥_Follow-85C1E9?style=for-the-badge)](https://github.com/s-ali007)
+[![Star Repositories](https://img.shields.io/badge/Star_Projects-⭐_GitHub-BB8FCE?style=for-the-badge)](https://github.com/ahmadhassanraza)
+[![Follow Profile](https://img.shields.io/badge/Follow_Journey-👥_Follow-85C1E9?style=for-the-badge)](https://github.com/ahmadhassanraza)
 
 </td>
 </tr>
@@ -1011,17 +1011,17 @@ const quickActions = {
 
 ### 📈 **Profile Growth & Engagement**
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=s-ali007&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS" alt="Profile Views"/>
-  <img src="https://img.shields.io/github/followers/s-ali007?style=for-the-badge&color=orange&label=FOLLOWERS" alt="Followers"/>
-  <img src="https://img.shields.io/github/stars/s-ali007?style=for-the-badge&color=yellow&label=TOTAL+STARS" alt="Stars"/>
+  <img src="https://komarev.com/ghpvc/?username=ahmadhassanraza&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS" alt="Profile Views"/>
+  <img src="https://img.shields.io/github/followers/ahmadhassanraza?style=for-the-badge&color=orange&label=FOLLOWERS" alt="Followers"/>
+  <img src="https://img.shields.io/github/stars/ahmadhassanraza?style=for-the-badge&color=yellow&label=TOTAL+STARS" alt="Stars"/>
 </div>
 
 ### 💡 **Pro Tip for Visitors**
 > 💡 **Did you know?** You can press `Ctrl + F` (or `Cmd + F` on Mac) to quickly search for specific technologies, projects, or information on this profile!
 
 ### 📱 **Share This Profile**
-[![Share on Twitter](https://img.shields.io/badge/Share_on-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/intent/tweet?text=Check%20out%20this%20amazing%20developer%20profile!&url=https://github.com/s-ali007)
-[![Share on LinkedIn](https://img.shields.io/badge/Share_on-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/s-ali007)
+[![Share on Twitter](https://img.shields.io/badge/Share_on-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/intent/tweet?text=Check%20out%20this%20amazing%20developer%20profile!&url=https://github.com/ahmadhassanraza)
+[![Share on LinkedIn](https://img.shields.io/badge/Share_on-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/ahmadhassanraza)
 
 ---
 
