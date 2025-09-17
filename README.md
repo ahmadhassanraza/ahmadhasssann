@@ -41,12 +41,15 @@ interface DevOpsEngineer {
 }
 
 interface TechnicalExpertise {
-  architecture: string[];
-  frontend: string[];
-  backend: string[];
-  database: string[];
+  infrastructure: string[];
+  containers: string[];
+  orchestration: string[];
+  ci_cd: string[];
   cloud: string[];
-  devops: string[];
+  monitoring_logging: string[];
+  security: string[];
+  automation: string[];
+  scm: string[];
 }
 
 interface ProfessionalProfile {
