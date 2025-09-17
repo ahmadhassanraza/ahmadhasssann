@@ -58,17 +58,17 @@ interface ProfessionalProfile {
 
 class AliHassan implements ProfessionalProfile {
   developer: Developer = {
-    name: "Ali Hassan",
-    role: "Senior Full-Stack Developer & Solution Architect",
+    name: "Ahmad Hassan",
+    role: "DevOps Engineer & Full-Stack Developer",
     location: "Islamabad, Pakistan (Remote Worldwide)",
-    experience: "3+ Years in Enterprise Development",
-    availability: "Open for Senior Positions & Consulting"
+    experience: "3+ Years in Enterprise Development & Deployments",
+    availability: "Open for DevOps Positions & IT Consulting"
   };
 
   expertise: TechnicalExpertise = {
     architecture: ["Microservices", "Serverless", "JAMstack", "Headless CMS"],
     frontend: ["React 18+", "Next.js 14", "TypeScript", "Tailwind CSS", "Redux Toolkit"],
-    backend: ["Node.js", "Express.js", "NestJS", "GraphQL", "RESTful APIs"],
+    backend: ["Node.js", "Express.js", "FastAPI", "GraphQL", "RESTful APIs"],
     database: ["MongoDB", "PostgreSQL", "Redis", "Firebase Firestore"],
     cloud: ["AWS", "Vercel", "Netlify", "Digital Ocean", "Docker"],
     devops: ["CI/CD", "GitHub Actions", "Docker", "Kubernetes", "Monitoring"]
@@ -1083,7 +1083,7 @@ const futurePlans = {
 <div align="center">
   <p><sub>
     💡 <strong>Made with ❤️ and lots of ☕</strong><br/>
-    📅 <em>Last updated: August 2025</em><br/>
+    📅 <em>Last updated: September 2025</em><br/>
     🔄 <em>This profile is continuously evolving - like good code should be!</em><br/>
     🌟 <em>Thanks for reading all the way to the bottom - you're awesome!</em>
   </sub></p>
