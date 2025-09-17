@@ -1,5 +1,5 @@
 # Ahmad Hassan
-## 🚀 Web Developer | Full-Stack Enthusiast | Passionate Problem Solver
+## ✨ DevOps Engineer 🚀 Streamlining Ops with Automation | CI/CD Pipelines | Docker, Kubernetes | IaC | Cloud-Native • AWS/Azure/GCP AI/MLOps → Building Towards Agentic AI Infrastructure @Opsven
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,16,19,24,30&height=160&section=header&text=Ahmad%20Hassan&fontSize=40&fontColor=fff&animation=fadeIn&fontAlignY=32&desc=Developer%20%7C%20Web%20Applications%20%7C%20Clean%20Code&descAlignY=51&descAlign=62" width="100%">
@@ -11,8 +11,8 @@
 
 <div align="center">
   
-[![Profile Views](https://komarev.com/ghpvc/?username=ahmad-hassan-developer&label=Profile%20Views&color=0891b2&style=for-the-badge)](https://github.com/ahmad-hassan-developer)
-[![GitHub Followers](https://img.shields.io/github/followers/ahmad-hassan-developer?label=Followers&style=for-the-badge&color=blue&logo=github)](https://github.com/ahmad-hassan-developer?tab=followers)
+[![Profile Views](https://komarev.com/ghpvc/?username=ahmadhasssann&label=Profile%20Views&color=0891b2&style=for-the-badge)](https://github.com/ahmadhasssann)
+[![GitHub Followers](https://img.shields.io/github/followers/ahmadhasssann?label=Followers&style=for-the-badge&color=blue&logo=github)](https://github.com/ahmadhasssann?tab=followers)
 
 </div>
 
