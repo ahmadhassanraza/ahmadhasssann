@@ -13,16 +13,15 @@
 </div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=4000&pause=1000&color=09adb8&center=true&vCenter=true&random=false&width=800&lines=🚀+Building+Next-Generation+Web+Applications;⚡+React+%7C+Node.js+%7C+Cloud+Architecture+Expert;🎯+Transforming+Ideas+into+Scalable+Digital+Solutions;💡+Open+Source+Contributor+%7C+Tech+Enthusiast;🌟+Available+for+Senior+Developer+Positions" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=4000&pause=1000&color=09ADB8&center=true&vCenter=true&random=false&width=800&lines=🚀+Building+Next-Generation+Web+Applications;⚡+React+%7C+Node.js+%7C+Cloud+Architecture+Expert;🎯+Transforming+Ideas+into+Scalable+Digital+Solutions;💡+Open+Source+Contributor+%7C+Tech+Enthusiast;🌟+Available+for+Senior+Developer+Positions" alt="Typing Animation" />
 </p>
 
 <div align="center">
-  
+
 [![Profile Views](https://komarev.com/ghpvc/?username=s-ali007&label=Profile%20Views&color=0891b2&style=for-the-badge)](https://github.com/s-ali007)
 [![GitHub Followers](https://img.shields.io/github/followers/s-ali007?label=Followers&style=for-the-badge&color=blue&logo=github)](https://github.com/s-ali007?tab=followers)
-[![Years Badge](https://badges.pufler.dev/years/s-ali007?style=for-the-badge&color=blue&logo=github)](https://github.com/s-ali007)
-[![Repos Badge](https://badges.pufler.dev/repos/s-ali007?style=for-the-badge&color=blue&logo=github)](https://github.com/s-ali007?tab=repositories)
-[![Commits Badge](https://badges.pufler.dev/commits/monthly/s-ali007?style=for-the-badge&color=blue&logo=github)](https://github.com/s-ali007)
+[![Stars](https://img.shields.io/github/stars/s-ali007?label=Stars&style=for-the-badge&color=yellow&logo=github)](https://github.com/s-ali007?tab=repositories)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=s-ali007&layout=compact&theme=tokyonight&langs_count=6&hide_border=true)](https://github.com/s-ali007)
 
 </div>
 
