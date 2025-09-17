@@ -6,14 +6,14 @@
 <div align="center">
   <a href="https://ahrops.opsven.com">
     <img 
-      src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,16,19,24,30&height=160&section=header&text=Ali%20Hassan&fontSize=40&fontColor=fff&animation=fadeIn&fontAlignY=32&desc=DevOps%20Engineer%20%7C%20Aspiring%20Kubestronaut&descAlignY=51&descAlign=62" 
+      src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,16,19,24,30&height=160&section=header&text=Ahmad%20Hassan&fontSize=40&fontColor=fff&animation=fadeIn&fontAlignY=32&desc=DevOps%20Engineer%20%7C%20Aspiring%20Kubestronaut&descAlignY=51&descAlign=62" 
       width="100%"
     >
   </a>
 </div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=4000&pause=1000&color=09ADB8&center=true&vCenter=true&random=false&width=800&lines=🚀+Building+Next-Generation+Web+Applications;⚡+React+%7C+Node.js+%7C+Cloud+Architecture+Expert;🎯+Transforming+Ideas+into+Scalable+Digital+Solutions;💡+Open+Source+Contributor+%7C+Tech+Enthusiast;🌟+Available+for+Senior+Developer+Positions" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.demolab.com/?lines=Building+Next-Generation+Web+Applications;React+%7C+Node.js+%7C+Cloud+Architecture+Expert;Transforming+Ideas+into+Scalable+Digital+Solutions;Open+Source+Contributor+%7C+Tech+Enthusiast;Available+for+Senior+Developer+Positions" alt="Typing Animation" />
 </p>
 
 <div align="center">
