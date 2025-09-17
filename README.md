@@ -1,7 +1,7 @@
 # Ahmad Hassan
 ## ✨ DevOps Engineer | Full-Stack Developer 🚀 Streamlining Ops with Automation 
-## CI/CD Pipelines | Docker, Kubernetes | IaC | Cloud-Native • AWS/Azure/GCP | AI/MLOps 
-## ✨ Digital Innovator 🚀 Building Agentic AI Infrastructure @Opsven 
+## ✨ CI/CD Pipelines | Docker, Kubernetes | IaC | Cloud-Native • AWS/Azure/GCP 
+## ✨ AI/MLOps Innovator 🚀 Building Agentic AI Infrastructure @Opsven 
 
 <div align="center">
   <a href="https://ahrops.opsven.com">
