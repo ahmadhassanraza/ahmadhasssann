@@ -17,10 +17,10 @@
 
 <div align="center">
 
-[![Profile Views](https://komarev.com/ghpvc/?username=s-ali007&label=Profile%20Views&color=0891b2&style=for-the-badge)](https://github.com/s-ali007)
-[![GitHub Followers](https://img.shields.io/github/followers/s-ali007?label=Followers&style=for-the-badge&color=blue&logo=github)](https://github.com/s-ali007?tab=followers)
-[![Stars](https://img.shields.io/github/stars/s-ali007?label=Stars&style=for-the-badge&color=yellow&logo=github)](https://github.com/s-ali007?tab=repositories)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=s-ali007&layout=compact&theme=tokyonight&langs_count=6&hide_border=true)](https://github.com/s-ali007)
+[![Profile Views](https://komarev.com/ghpvc/?username=s-ali007&label=Profile%20Views&color=0891b2&style=for-the-badge)](https://github.com/ahmadhasssann)
+[![GitHub Followers](https://img.shields.io/github/followers/s-ali007?label=Followers&style=for-the-badge&color=blue&logo=github)](https://github.com/ahmadhasssann?tab=followers)
+[![Stars](https://img.shields.io/github/stars/s-ali007?label=Stars&style=for-the-badge&color=yellow&logo=github)](https://github.com/ahmadhasssann?tab=repositories)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=s-ali007&layout=compact&theme=tokyonight&langs_count=6&hide_border=true)](https://github.com/ahmadhasssann)
 
 </div>
 
