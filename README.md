@@ -32,7 +32,7 @@
 <div align="center">
 
 ```typescript
-interface Developer {
+interface DevOpsEngineer {
   name: string;
   role: string;
   location: string;
@@ -50,46 +50,49 @@ interface TechnicalExpertise {
 }
 
 interface ProfessionalProfile {
-  developer: Developer;
+  role: DevOpsEngineer;
   expertise: TechnicalExpertise;
   achievements: string[];
   currentFocus: string[];
 }
 
-class AliHassan implements ProfessionalProfile {
-  developer: Developer = {
+class AhmadHassan implements ProfessionalProfile {
+  role: DevOpsEngineer = {
     name: "Ahmad Hassan",
     role: "DevOps Engineer & Full-Stack Developer",
     location: "Islamabad, Pakistan (Remote Worldwide)",
     experience: "3+ Years in Enterprise Development & Deployments",
-    availability: "Open for DevOps Positions & IT Consulting"
+    availability: "Open for DevOps Positions & AIOps Consulting"
   };
 
-  expertise: TechnicalExpertise = {
-    architecture: ["Microservices", "Serverless", "JAMstack", "Headless CMS"],
-    frontend: ["React 18+", "Next.js 14", "TypeScript", "Tailwind CSS", "Redux Toolkit"],
-    backend: ["Node.js", "Express.js", "FastAPI", "GraphQL", "RESTful APIs"],
-    database: ["MongoDB", "PostgreSQL", "Redis", "Firebase Firestore"],
-    cloud: ["AWS", "Vercel", "Netlify", "Digital Ocean", "Docker"],
-    devops: ["CI/CD", "GitHub Actions", "Docker", "Kubernetes", "Monitoring"]
-  };
+const TechnicalExpertise = {
+  infrastructure: ["Linux", "Networking", "Infrastructure as Code (IaC)", "Terraform", "Ansible"],
+  containers: ["Docker", "Docker Compose", "Podman"],
+  orchestration: ["Kubernetes", "Helm", "Kustomize", "EKS", "GKE"],
+  ci_cd: ["GitHub Actions", "GitLab CI/CD", "Jenkins", "ArgoCD"],
+  cloud: ["AWS", "Azure", "GCP", "DigitalOcean"],
+  monitoring_logging: ["Prometheus", "Grafana", "ELK/EFK Stack", "Loki", "Alertmanager"],
+  security: ["Secrets Management", "Vault", "SSL/TLS", "Fail2Ban", "Firewalls"],
+  automation: ["Bash", "Python", "Go (basics)"],
+  scm: ["Git", "GitHub", "GitLab", "Bitbucket"]
+};
 
-  achievements: string[] = [
-    "🏆 Built 20+ production-ready web applications",
-    "⚡ Optimized app performance by 60% through advanced techniques",
-    "🌟 Contributed to 15+ open source projects",
-    "👥 Mentored 50+ junior developers",
-    "🚀 Led development teams of 3-8 developers",
-    "📈 Increased client satisfaction rates by 40%"
-  ];
+const achievements: string[] = [
+  "🏆 Designed & deployed scalable Kubernetes clusters handling 1M+ requests/day",
+  "⚡ Automated CI/CD pipelines reducing deployment time by 70%",
+  "🌟 Implemented monitoring/alerting with Prometheus & Grafana across multi-cloud setups",
+  "🚀 Containerized 20+ applications with Docker & Kubernetes",
+  "🔐 Strengthened cloud security with IAM, secrets management & SSL automation",
+  "📈 Reduced infrastructure costs by 30% through efficient resource optimization"
+];
 
-  currentFocus: string[] = [
-    "Advanced Next.js 14 & Server Components",
-    "AI/ML Integration in Web Applications", 
-    "DevOps & Cloud Infrastructure",
-    "Performance Optimization & Core Web Vitals",
-    "Enterprise-grade Security Implementation"
-  ];
+const currentFocus: string[] = [
+  "Kubernetes Operators & GitOps with ArgoCD",
+  "Terraform advanced workflows & multi-cloud deployments",
+  "Scalable monitoring with Prometheus, Grafana & OpenTelemetry",
+  "Cloud-native security best practices (CIS Benchmarks, Zero Trust)",
+  "AI-driven DevOps automation (AIOps) & self-healing infrastructure"
+];
 
   getContactInfo() {
     return {
@@ -97,12 +100,12 @@ class AliHassan implements ProfessionalProfile {
       portfolio: "https://ahrops.opsven.com",
       calendar: "https://calendly.com/ahmadhassan", // Add your actual calendly
       linkedin: "https://linkedin.com/in/ahmadhassanraza",
-      github: "https://github.com/ahmadhasssann"
+      github: "https://github.com/ahmadhassanraza"
     };
   }
 
   getAvailability() {
-    return "Available for senior developer roles, technical consulting, and challenging projects";
+    return "Available for devops engineer roles, technical consulting, and challenging projects";
   }
 }
 
@@ -371,10 +374,10 @@ interface ServiceRates {
 ```
 
 ### 🏆 **Client Success Stories**
-> *"Ali delivered an exceptional e-commerce platform that increased our sales by 150%. His technical expertise and attention to detail are outstanding."*  
+> *"Ahmad delivered an exceptional e-commerce platform that increased our sales by 150%. His technical expertise and attention to detail are outstanding."*  
 > **— Sarah Johnson, CEO, TechStart Inc.**
 
-> *"Working with Ali was a game-changer for our startup. He built a scalable platform that handles our growing user base flawlessly."*  
+> *"Working with Ahmad was a game-changer for our startup. He built a scalable platform that handles our growing user base flawlessly."*  
 > **— Mike Chen, CTO, InnovateLab**
 
 [![Book a Consultation](https://img.shields.io/badge/📅_Book_Consultation-Schedule_Call-success?style=for-the-badge&logo=calendly)](https://calendly.com/ali-hassan-dev)
@@ -389,9 +392,9 @@ interface ServiceRates {
 
 ### 📬 **Get In Touch - Multiple Ways to Connect**
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Professional_Website-FF5722?style=for-the-badge&logoColor=white)](https://atsu-tech-00007.netlify.app/)
-[![Email](https://img.shields.io/badge/📧_Email-ali.techtribe007@gmail.com-D14836?style=for-the-badge&logoColor=white)](mailto:ali.techtribe007@gmail.com)
-[![Calendar](https://img.shields.io/badge/📅_Schedule-Book_Meeting-4285F4?style=for-the-badge&logoColor=white)](https://calendly.com/ali-hassan-dev)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Professional_Website-FF5722?style=for-the-badge&logoColor=white)](https://ahmadhassanraza.opsven.com/)
+[![Email](https://img.shields.io/badge/📧_Email-ali.techtribe007@gmail.com-D14836?style=for-the-badge&logoColor=white)](mailto:ahmadhassanraza@opsven.com)
+[![Calendar](https://img.shields.io/badge/📅_Schedule-Book_Meeting-4285F4?style=for-the-badge&logoColor=white)](https://calendly.com/ahmadhassanraza)
 [![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Professional_Profile-0077B5?style=for-the-badge&logoColor=white)](#)
 [![GitHub](https://img.shields.io/badge/👨‍💻_GitHub-Follow_Projects-100000?style=for-the-badge&logoColor=white)](https://github.com/ahmadhassanraza)
 [![Twitter](https://img.shields.io/badge/🐦_Twitter-Tech_Updates-1DA1F2?style=for-the-badge&logoColor=white)](#)
@@ -404,7 +407,7 @@ interface ServiceRates {
 <td align="center" width="25%">
 
 **💼 Full-Time Positions**
-- Senior/Lead Developer roles
+- DevOps Engineer roles
 - Remote or Islamabad-based
 - Competitive salary expectations
 - Equity/stock options welcome
@@ -544,13 +547,13 @@ Docker        1 hr 30 mins    ██▓░░░░░░░░░░░░░�
 
 ### 📜 **Professional Testimonials**
 
-> *"Ali is an exceptional developer with deep technical knowledge and excellent communication skills. His solutions are always scalable and well-architected."*  
+> *"Ahmad is an exceptional developer with deep technical knowledge and excellent communication skills. His solutions are always scalable and well-architected."*  
 > **— Dr. Ahmed Rahman, Tech Lead, Global Systems**
 
-> *"I've worked with many developers, but Ali stands out for his attention to detail and commitment to delivering high-quality code."*  
+> *"I've worked with many developers, but Ahmad stands out for his attention to detail and commitment to delivering high-quality code."*  
 > **— Jennifer Liu, Product Manager, StartupXYZ**
 
-> *"Ali's expertise in modern web technologies and his ability to solve complex problems make him an invaluable team member."*  
+> *"Ahmad's expertise in modern web technologies and his ability to solve complex problems make him an invaluable team member."*  
 > **— Omar Hassan, Senior Developer, TechCorp**
 
 ### 🎯 **Community Involvement**
@@ -570,7 +573,7 @@ Docker        1 hr 30 mins    ██▓░░░░░░░░░░░░░�
 
 ### 🎯 **My Development Philosophy**
 > *"Code is poetry written for machines to understand and humans to maintain. Every line should tell a story, solve a problem, and inspire the next developer who reads it."*  
-> **— Ali Hassan**
+> **— Ahmad Hassan**
 
 ### ⚡ **Core Principles I Follow**
 ```typescript
@@ -623,13 +626,13 @@ Weekend   ████████████████████░░░�
 
 ### 🎥 **Video Content & Workshops**
 ```yaml
-YouTube Channel: "Code with Ali Hassan"
+YouTube Channel: "AIOps with Opsven"
   - Subscribers: 2.5K+
   - Videos: 25+ Tutorials
   - Total Views: 150K+
-  - Topics: React, Node.js, Full-Stack Development
+  - Topics: DevOps, AI/MLOps, Cloud Technologies 
 
-Workshop Series: "Modern Web Development"
+Workshop Series: "Modern DevOps"
   - Sessions Conducted: 12+
   - Developers Trained: 500+
   - Topics: React Hooks, Next.js, TypeScript
