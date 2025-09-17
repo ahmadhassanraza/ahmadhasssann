@@ -8,7 +8,7 @@
 </div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Building+Agentic-AI+Infrastructure+@Opsven;CI/CD+%7C+IaC+%7C+K8s+%7C+Docker+Expert;Cloud-Native+AWS+Azure+GCP;AI/MLOps+Innovator+%7C+@Opsven;Available+for+DevOps+Positions" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.demolab.com/?lines=Streamlining+Ops+with+Opsven;CI/CD+%7C+IaC+%7C+K8s+%7C+Docker+Expert;Cloud-Native+%7C+AWS+Azure+GCP;AI/MLOps+Innovator+%7C+@Opsven;Available+for+DevOps+Positions" alt="Typing Animation" />
 </p>
 
 <div align="center">
