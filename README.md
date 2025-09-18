@@ -95,7 +95,7 @@ const currentFocus: string[] = [
     return {
       email: "ahrops@opsven.com",
       portfolio: "https://ahrops.opsven.com",
-      calendar: "https://calendly.com/ahmadhassan", // Add your actual calendly
+      calendar: "https://calendly.com/ahmadhassanraza", 
       linkedin: "https://linkedin.com/in/ahmadhassanraza",
       github: "https://github.com/ahmadhassanraza"
     };
@@ -114,55 +114,56 @@ console.log("🎯 AI Native DevOps Engineer Profile Loaded Successfully!");
 
 ---
 
-## 🛡️ Technical Expertise & Certifications
+## 🛡️ Technical Expertise & Certifications  
 
 <div align="center">
 
-### 🏗️ **Architecture & Design Patterns**
-![Microservices](https://img.shields.io/badge/Microservices-Expert-brightgreen?style=for-the-badge&logo=moleculer&logoColor=white)
-![Clean Architecture](https://img.shields.io/badge/Clean%20Architecture-Advanced-blue?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Design Patterns](https://img.shields.io/badge/Design%20Patterns-Expert-orange?style=for-the-badge&logo=adobeillustrator&logoColor=white)
-![SOLID Principles](https://img.shields.io/badge/SOLID%20Principles-Master-red?style=for-the-badge&logo=codereview&logoColor=white)
+### 🏗️ **Infrastructure & Architecture**  
+![Linux](https://img.shields.io/badge/Linux-Expert-FCC624?style=for-the-badge&logo=linux&logoColor=black)  
+![Networking](https://img.shields.io/badge/Networking-Advanced-0078D7?style=for-the-badge&logo=cisco&logoColor=white)  
+![Terraform](https://img.shields.io/badge/Terraform-Expert-844FBA?style=for-the-badge&logo=terraform&logoColor=white)  
+![Ansible](https://img.shields.io/badge/Ansible-Advanced-EE0000?style=for-the-badge&logo=ansible&logoColor=white)  
 
-### 💻 **Frontend Technologies**
-![React](https://img.shields.io/badge/React_18+-Expert-61DAFB?style=for-the-badge&logo=react&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js_14-Expert-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-Expert-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-Expert-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-Expert-764ABC?style=for-the-badge&logo=redux&logoColor=white)
-![React Query](https://img.shields.io/badge/React_Query-Advanced-FF4154?style=for-the-badge&logo=reactquery&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-Advanced-0055FF?style=for-the-badge&logo=framer&logoColor=white)
-![Three.js](https://img.shields.io/badge/Three.js-Intermediate-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
+### 📦 **Containers & Orchestration**  
+![Docker](https://img.shields.io/badge/Docker-Expert-2496ED?style=for-the-badge&logo=docker&logoColor=white)  
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Advanced-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)  
+![Helm](https://img.shields.io/badge/Helm-Intermediate-0F1689?style=for-the-badge&logo=helm&logoColor=white)  
+![Kustomize](https://img.shields.io/badge/Kustomize-Intermediate-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)  
 
-### ⚙️ **Backend & API Development**
-![Node.js](https://img.shields.io/badge/Node.js-Expert-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-Expert-000000?style=for-the-badge&logo=express&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-Advanced-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-Advanced-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-Advanced-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-Expert-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+### 🔄 **CI/CD & Automation**  
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-Expert-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)  
+![GitLab CI/CD](https://img.shields.io/badge/GitLab_CI/CD-Advanced-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)  
+![Jenkins](https://img.shields.io/badge/Jenkins-Intermediate-D24939?style=for-the-badge&logo=jenkins&logoColor=white)  
+![ArgoCD](https://img.shields.io/badge/ArgoCD-Intermediate-FD7E14?style=for-the-badge&logo=argo&logoColor=white)  
 
-### 🗄️ **Database & Storage**
-![MongoDB](https://img.shields.io/badge/MongoDB-Expert-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Advanced-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-Advanced-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-Expert-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Supabase](https://img.shields.io/badge/Supabase-Advanced-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+### ☁️ **Cloud Platforms**  
+![AWS](https://img.shields.io/badge/AWS-Advanced-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)  
+![Azure](https://img.shields.io/badge/Azure-Intermediate-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)  
+![GCP](https://img.shields.io/badge/GCP-Intermediate-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)  
+![DigitalOcean](https://img.shields.io/badge/DigitalOcean-Advanced-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white)  
 
-### ☁️ **Cloud & DevOps**
-![AWS](https://img.shields.io/badge/AWS-Intermediate-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-Advanced-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-Learning-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-Expert-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Netlify](https://img.shields.io/badge/Netlify-Expert-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-Advanced-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+### 📊 **Monitoring & Logging**  
+![Prometheus](https://img.shields.io/badge/Prometheus-Expert-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)  
+![Grafana](https://img.shields.io/badge/Grafana-Expert-F46800?style=for-the-badge&logo=grafana&logoColor=white)  
+![ELK Stack](https://img.shields.io/badge/ELK_Stack-Advanced-005571?style=for-the-badge&logo=elasticstack&logoColor=white)  
+![Loki](https://img.shields.io/badge/Loki-Intermediate-4A90E2?style=for-the-badge&logo=grafana&logoColor=white)  
 
-### 🛠️ **Development Tools & Workflow**
-![VS Code](https://img.shields.io/badge/VS_Code-Expert-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Git](https://img.shields.io/badge/Git-Expert-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-Expert-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-Advanced-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Notion](https://img.shields.io/badge/Notion-Advanced-000000?style=for-the-badge&logo=notion&logoColor=white)
+### 🔐 **Security & Compliance**  
+![Vault](https://img.shields.io/badge/HashiCorp_Vault-Advanced-000000?style=for-the-badge&logo=vault&logoColor=white)  
+![SSL/TLS](https://img.shields.io/badge/SSL/TLS-Expert-003366?style=for-the-badge&logo=letsencrypt&logoColor=white)  
+![Fail2Ban](https://img.shields.io/badge/Fail2Ban-Intermediate-006600?style=for-the-badge&logo=linux&logoColor=white)  
+![Firewall](https://img.shields.io/badge/Firewalls-Advanced-FF0000?style=for-the-badge&logo=fortinet&logoColor=white)  
+
+### ⚙️ **Scripting & Automation**  
+![Bash](https://img.shields.io/badge/Bash-Expert-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)  
+![Python](https://img.shields.io/badge/Python-Advanced-3776AB?style=for-the-badge&logo=python&logoColor=white)  
+![Go](https://img.shields.io/badge/Go-Beginner-00ADD8?style=for-the-badge&logo=go&logoColor=white)  
+
+### 🔧 **Version Control & Collaboration**  
+![Git](https://img.shields.io/badge/Git-Expert-F05032?style=for-the-badge&logo=git&logoColor=white)  
+![GitHub](https://img.shields.io/badge/GitHub-Expert-181717?style=for-the-badge&logo=github&logoColor=white)  
+![GitLab](https://img.shields.io/badge/GitLab-Advanced-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)  
+![Bitbucket](https://img.shields.io/badge/Bitbucket-Intermediate-0052CC?style=for-the-badge&logo=bitbucket&logoColor=white)  
 
 </div>
 
@@ -172,82 +173,82 @@ console.log("🎯 AI Native DevOps Engineer Profile Loaded Successfully!");
 
 <div align="center">
 
-### 🌟 **Enterprise-Grade Portfolio - AHROPS Tech**
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Site-success?style=for-the-badge&logo=netlify)](https://ahrops.opsven.com/)
-[![Source Code](https://img.shields.io/badge/📝_Source-View_Code-blue?style=for-the-badge&logo=github)](https://github.com/ahmadhassanraza)
+### 🌟 **Enterprise-Grade CI/CD Pipeline - AHROPS Opsven**
+[![Docs](https://img.shields.io/badge/🌐_Docs-View_Pipeline-success?style=for-the-badge&logo=githubactions)](https://github.com/ahrops)
+[![Source Code](https://img.shields.io/badge/📝_Source-View_Code-blue?style=for-the-badge&logo=github)](https://github.com/ahrops)
 
-**🎯 Project Overview:** Modern, high-performance portfolio showcasing advanced web technologies  
-**🏗️ Architecture:** JAMstack with Next.js 14, Server Components, and Edge Functions  
-**⚡ Performance:** 98+ Lighthouse Score, <2s Load Time, Core Web Vitals Optimized
+**🎯 Project Overview:** Production-grade CI/CD pipeline automating build, test, and deployment workflows  
+**🏗️ Architecture:** GitHub Actions + Docker + Kubernetes + ArgoCD (GitOps)  
+**⚡ Performance:** Zero-downtime deployments with rollback in <30s
 
 **Tech Stack Deep Dive:**
 ```yaml
-Frontend:
-  - Next.js 14 (App Router, Server Components)
-  - TypeScript for type safety
-  - Tailwind CSS with custom design system
-  - Framer Motion for animations
-  - React Hook Form with Zod validation
+CI/CD:
+  - GitHub Actions workflows
+  - Docker build & push automation
+  - ArgoCD for GitOps deployment
+  - Terraform for IaC provisioning
 
-Backend:
-  - API Routes with Next.js
-  - Server Actions for form handling
-  - Edge Runtime optimization
+Infrastructure:
+  - Kubernetes (EKS / GKE)
+  - NGINX Ingress + SSL termination
+  - Prometheus + Grafana monitoring
+  - Loki + ELK for centralized logging
 
-Performance:
-  - Image optimization with next/image
-  - Dynamic imports and code splitting
-  - Service Worker for caching
-  - SEO optimization with metadata API
+Security:
+  - RBAC & IAM policies
+  - Vault for secrets management
+  - Fail2ban intrusion detection
+  - Automated dependency scanning
 ```
 
 **🚀 Key Achievements:**
-- 🎯 **98+ Lighthouse Performance Score**
-- ⚡ **<2 Second Load Time** on 3G networks
-- 📱 **100% Mobile Responsive** with touch optimization  
-- 🔍 **Advanced SEO** with structured data and meta optimization
-- 🎨 **Award-winning UI/UX** with accessibility compliance
+- ⚡ **Zero-Downtime Deployments** with rolling updates
+- 🔄 **Automated CI/CD Pipeline** from GitHub push → production release
+- 🛡️ **Hardened Security** with RBAC, SSL, and secret rotation
+- 📊 **Real-Time Monitoring & Alerts** integrated with Slack/Telegram
+- 🏗️ **Infrastructure as Code** reproducible in minutes
 
 ---
 
-### 🎯 **Advanced Web Experience - Bombolone Platform**
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Site-success?style=for-the-badge&logo=netlify)](https://master--famous-bombolone-bf40d1.netlify.app/)
+### 🎯 **Advanced DevOps Delivery - Opsven Platform**
+[![Live Demo](https://img.shields.io/badge/🌐_Deployed_App-Visit_Site-success?style=for-the-badge&logo=docker)](https://your-production-link.com)
 [![Case Study](https://img.shields.io/badge/📊_Case_Study-Read_More-orange?style=for-the-badge&logo=notion)](https://your-case-study-link.com)
 
-**🎯 Project Overview:** Full-stack web platform with real-time features and advanced UX  
-**🏗️ Architecture:** MERN Stack with real-time communication and cloud integration  
-**👥 Impact:** Served 1000+ users with 99.9% uptime and excellent user satisfaction
+**🎯 Project Overview:** Production-ready DevOps pipeline with automation, security, and monitoring  
+**🏗️ Architecture:** Docker + Kubernetes + GitHub Actions + NGINX + IaC (Terraform/Ansible)  
+**👥 Impact:** Enabled 99.9% uptime, faster deployments, and scalable infra across teams
 
 **Advanced Features Implemented:**
 ```typescript
 Features: {
-  realTime: ["WebSocket integration", "Live notifications", "Real-time updates"],
-  authentication: ["JWT with refresh tokens", "OAuth integration", "Role-based access"],
-  performance: ["Redis caching", "Database indexing", "API rate limiting"],
-  security: ["HTTPS enforcement", "XSS protection", "SQL injection prevention"],
-  monitoring: ["Error tracking", "Performance monitoring", "User analytics"]
+  ci_cd: ["Automated builds", "GitHub Actions pipelines", "Blue-Green/Rolling deployments"],
+  infrastructure: ["IaC with Terraform", "Dockerized microservices", "Kubernetes orchestration"],
+  monitoring: ["Prometheus metrics", "Grafana dashboards", "Slack/Telegram alerts"],
+  security: ["RBAC access control", "SSL/TLS enforcement", "Secret management & rotation"],
+  performance: ["Horizontal pod autoscaling", "Caching layers", "Optimized resource allocation"]
 }
 ```
 
 **🚀 Technical Accomplishments:**
-- 🔄 **Real-time Communication** with Socket.io and WebRTC
-- 🛡️ **Enterprise Security** with multi-layer authentication
-- 📊 **Advanced Analytics** with custom dashboard
-- 🚀 **Auto-scaling Infrastructure** with load balancing
-- 🎨 **Progressive Web App** with offline capabilities
+- ⚡ **Zero-Downtime Deployments** with Blue-Green & Rolling strategies
+- 🔄 **End-to-End CI/CD Automation** from GitHub push → production release
+- 🛡️ **Enterprise-Grade Security** with RBAC, SSL/TLS, and secret rotation
+- 📊 **Real-Time Monitoring & Alerts** integrated with Prometheus, Grafana & Slack
+- 🏗️ **Infrastructure as Code** reproducible in minutes using Terraform & Ansible
 
 ---
 
-### 📚 **More Premium Projects**
+### 📚 **More Premium DevOps Projects**
 
-| Project | Type | Tech Stack | Status | Demo |
-|---------|------|------------|--------|------|
-| **E-Commerce Platform** | Full-Stack | Next.js, Stripe, MongoDB | 🚀 Live | [View](https://demo-link.com) |
-| **AI Chat Application** | SaaS | React, OpenAI API, Supabase | 🚧 Development | [Preview](https://preview-link.com) |
-| **Task Management System** | Enterprise | MERN, Redis, Docker | ✅ Complete | [Demo](https://demo-link.com) |
-| **Real-time Analytics Dashboard** | Data Viz | React, D3.js, Node.js | ✅ Complete | [View](https://demo-link.com) |
+| Project | Type | Tools/Stack | Status | Demo |
+|---------|------|-------------|--------|------|
+| **Kubernetes E-Commerce Infra** | Cloud Infra | K8s, Helm, Istio, Terraform | 🚀 Live | [View](https://demo-link.com) |
+| **AI ChatOps Pipeline** | CI/CD | GitHub Actions, Docker, OpenAI API | 🚧 Development | [Preview](https://preview-link.com) |
+| **Enterprise Task System Infra** | Orchestration | Docker Swarm, Redis, Nginx | ✅ Complete | [Demo](https://demo-link.com) |
+| **Monitoring & Analytics Stack** | Observability | Prometheus, Grafana, Loki | ✅ Complete | [View](https://demo-link.com) |
 
-[![View All Projects](https://img.shields.io/badge/🚀_View_All_Projects-Explore_Portfolio-FF6B6B?style=for-the-badge&logo=github)](https://github.com/ahmadhassanraza?tab=repositories)
+[![View All Projects](https://img.shields.io/badge/🚀_View_All_Projects-Explore_Portfolio-09ADB8?style=for-the-badge&logo=github)](https://github.com/ahmadhassanraza?tab=repositories)
 
 </div>
 
@@ -289,35 +290,40 @@ Features: {
 
 ### 🚀 **Current Learning Path & Objectives**
 
-| Quarter | Focus Area | Technologies | Target Completion | Status |
-|---------|------------|--------------|-------------------|---------|
-| **Q4 2024** | Advanced Frontend | Next.js 14, Server Components, Suspense | Dec 2024 | ![90%](https://progress-bar.dev/90/?title=90%25&color=4caf50) |
-| **Q1 2025** | DevOps & Cloud | Docker, Kubernetes, AWS Certification | Mar 2025 | ![60%](https://progress-bar.dev/60/?title=60%25&color=2196f3) |
-| **Q2 2025** | AI/ML Integration | TensorFlow.js, OpenAI API, Langchain | Jun 2025 | ![25%](https://progress-bar.dev/25/?title=25%25&color=ff9800) |
-| **Q3 2025** | Mobile Development | React Native, Expo, Cross-platform | Sep 2025 | ![10%](https://progress-bar.dev/10/?title=10%25&color=9c27b0) |
+| Quarter | Focus Area | Technologies / Tools | Target Completion | Status |
+|---------|------------|----------------------|-------------------|---------|
+| **Q4 2024** | Cloud Foundations | AWS, GCP, Linux Hardening | Dec 2024 | ![90%](https://progress-bar.dev/90/?title=90%25&color=4caf50) |
+| **Q1 2025** | Containers & Orchestration | Docker, Kubernetes, Helm, Istio | Mar 2025 | ![65%](https://progress-bar.dev/65/?title=65%25&color=2196f3) |
+| **Q2 2025** | Infrastructure as Code | Terraform, Ansible, Pulumi | Jun 2025 | ![40%](https://progress-bar.dev/40/?title=40%25&color=ff9800) |
+| **Q3 2025** | Observability & Automation | Prometheus, Grafana, Loki, GitHub Actions | Sep 2025 | ![20%](https://progress-bar.dev/20/?title=20%25&color=9c27b0) |
+
+</div>
 
 ### 📚 **Currently Reading & Learning**
 ```yaml
 Books:
-  - "Clean Architecture" by Robert C. Martin
-  - "System Design Interview" by Alex Xu
-  - "Designing Data-Intensive Applications" by Martin Kleppmann
+  - "Site Reliability Engineering" by Niall Richard Murphy
+  - "The Phoenix Project" by Gene Kim
+  - "The DevOps Handbook" by Gene Kim, Patrick Debois
 
 Courses:
-  - AWS Solutions Architect Certification
-  - Advanced React Patterns & Performance
-  - Kubernetes for Developers
+  - AWS Solutions Architect / DevOps Engineer Certification
+  - Kubernetes for Developers & Operators
+  - Terraform & Infrastructure as Code Mastery
+  - CI/CD with GitHub Actions, Jenkins, ArgoCD
 
 Conferences & Events:
-  - React Conf 2024 (Attended)
-  - Next.js Conf 2024 (Registered)
-  - Local Tech Meetups (Regular Speaker)
+  - KubeCon + CloudNativeCon 2024 (Registered)
+  - DevOpsDays 2024 (Attended)
+  - Local Tech Meetups & Hackathons (Speaker / Participant)
 ```
 
 ### 🎖️ **Certifications & Achievements**
-![AWS](https://img.shields.io/badge/AWS-Solutions_Architect-In_Progress-orange?style=for-the-badge&logo=amazonaws)
-![Google](https://img.shields.io/badge/Google-Cloud_Developer-Planning-blue?style=for-the-badge&logo=googlecloud)
-![Meta](https://img.shields.io/badge/Meta-React_Advanced-Completed-green?style=for-the-badge&logo=meta)
+![AWS](https://img.shields.io/badge/AWS-DevOps_Engineer-In_Progress-orange?style=for-the-badge&logo=amazonaws)
+![Google](https://img.shields.io/badge/Google-Cloud_Professional-Planning-blue?style=for-the-badge&logo=googlecloud)
+![HashiCorp](https://img.shields.io/badge/HashiCorp-Terraform_Advanced-Completed-green?style=for-the-badge&logo=hashicorp)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Certified_Admin-Completed-blue?style=for-the-badge&logo=kubernetes)
+![Docker](https://img.shields.io/badge/Docker-Advanced-Completed-2496ED?style=for-the-badge&logo=docker)
 
 </div>
 
@@ -333,32 +339,33 @@ Conferences & Events:
 <tr>
 <td align="center" width="33%">
 
-**🏗️ Full-Stack Development**
-- Enterprise web applications
-- MERN/MEAN stack solutions  
-- API design & development
-- Database architecture
-- Performance optimization
-
-</td>
-<td align="center" width="33%">
-
 **☁️ Cloud & DevOps**
-- AWS/Azure cloud deployment
-- CI/CD pipeline setup
-- Docker containerization
-- Performance monitoring
-- Security implementation
+- AWS, Azure, GCP deployments
+- CI/CD pipeline setup with GitHub Actions & Jenkins
+- Docker & Kubernetes orchestration
+- Infrastructure as Code (Terraform, Ansible)
+- Monitoring & alerting (Prometheus, Grafana, Slack/Telegram)
+- Security hardening (RBAC, SSL, secrets management)
 
 </td>
 <td align="center" width="33%">
 
-**🎨 Frontend Specialization**
+**🏗️ Backend & API Development**
+- Node.js, Express.js, FastAPI services
+- Microservices & Serverless architecture
+- API design & GraphQL/RESTful APIs
+- Database architecture (PostgreSQL, MongoDB, Redis)
+- Automated testing & performance optimization
+
+</td>
+<td align="center" width="33%">
+
+**🎨 Frontend & Performance**
 - React/Next.js applications
-- Modern UI/UX design
-- Mobile-responsive development
-- Progressive Web Apps
-- Performance optimization
+- TypeScript & Tailwind CSS
+- Performance optimization & Core Web Vitals
+- Progressive Web Apps (PWA)
+- Modern UI/UX & responsive design
 
 </td>
 </tr>
@@ -367,12 +374,12 @@ Conferences & Events:
 ### 💰 **Service Rates & Availability**
 ```typescript
 interface ServiceRates {
-  consultation: "$75/hour";
-  development: "$65/hour"; 
-  projectBased: "Starting from $2,000";
+  consultation: "$100/hour";
+  development: "$80/hour"; 
+  projectBased: "Starting from $3,000";
   retainer: "Monthly packages available";
-  availability: "25 hours/week";
-  responseTime: "Within 24 hours";
+  availability: "30 hours/week";
+  responseTime: "Within 12 hours";
 }
 ```
 
@@ -396,12 +403,14 @@ interface ServiceRates {
 ### 📬 **Get In Touch - Multiple Ways to Connect**
 
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Professional_Website-FF5722?style=for-the-badge&logoColor=white)](https://ahmadhassanraza.opsven.com/)
-[![Email](https://img.shields.io/badge/📧_Email-ali.techtribe007@gmail.com-D14836?style=for-the-badge&logoColor=white)](mailto:ahmadhassanraza@opsven.com)
+[![Email](https://img.shields.io/badge/📧_Email-ahmadhassanraza@opsven.com-D14836?style=for-the-badge&logoColor=white)](mailto:ahmadhassanraza@opsven.com)
 [![Calendar](https://img.shields.io/badge/📅_Schedule-Book_Meeting-4285F4?style=for-the-badge&logoColor=white)](https://calendly.com/ahmadhassanraza)
 [![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Professional_Profile-0077B5?style=for-the-badge&logoColor=white)](#)
 [![GitHub](https://img.shields.io/badge/👨‍💻_GitHub-Follow_Projects-100000?style=for-the-badge&logoColor=white)](https://github.com/ahmadhassanraza)
 [![Twitter](https://img.shields.io/badge/🐦_Twitter-Tech_Updates-1DA1F2?style=for-the-badge&logoColor=white)](#)
 [![Discord](https://img.shields.io/badge/💬_Discord-Join_Community-5865F2?style=for-the-badge&logoColor=white)](#)
+
+</div>
 
 ### 🎯 **I'm Available For:**
 
@@ -912,7 +921,7 @@ const currentStatus = {
   📍 location: "Islamabad, Pakistan",
   🌍 timezone: "UTC+5 (PKT)",
   💭 mood: "Excited about next challenge!",
-  🚀 currentlyBuilding: "AI-powered web application",
+  🚀 currentlyBuilding: "AI-powered Infrastructure @Opsven",
   📚 currentlyReading: "System Design Interview Vol 2"
 };
 ```
@@ -925,13 +934,13 @@ const currentStatus = {
      🏆 ACHIEVEMENT UNLOCKED! 🏆
 ┌─────────────────────────────────────────┐
 │  🌟 GitHub Profile Master               │
-│  ⚡ 100+ Repositories Created           │
-│  🔥 1000+ Commits This Year             │
-│  👥 500+ Developers Helped              │
-│  🎯 25+ Production Apps Deployed        │
-│  📚 45+ Technical Articles Published    │
-│  🎤 15+ Conference Talks Given          │
-│  ⭐ 2000+ GitHub Stars Earned           │
+│  ⚡ 50+ Repositories Created           │
+│  🔥 100+ Commits This Year             │
+│  👥 10+ Developers Helped              │
+│  🎯 3+ Production Apps Deployed        │
+│  📚 5+ Technical Articles Published    │
+│  🎤 3+ Conference Talks Given          │
+│  ⭐ 100+ GitHub Stars Earned           │
 └─────────────────────────────────────────┘
 ```
 
@@ -1077,7 +1086,7 @@ const futurePlans = {
 ### 🎯 **Final Call-to-Action**
 <div align="center">
   <h3>🚀 Ready to Build Something Amazing Together?</h3>
-  <p><em>Whether you're looking for a skilled developer, technical consultant, or coding mentor,<br/>
+  <p><em>Whether you're looking for a skilled devops engineer, developer, technical consultant, or coding mentor,<br/>
   I'm here to help turn your ideas into digital reality!</em></p>
   
   [![Let's Connect](https://img.shields.io/badge/Let's_Connect-🤝_Start_Our_Journey-FF6B6B?style=for-the-badge&color=gradient)](mailto:ali.techtribe007@gmail.com)
