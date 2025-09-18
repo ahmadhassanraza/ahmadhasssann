@@ -756,7 +756,7 @@ interface CommunityImpact {
 
 ```mermaid
 timeline
-    title Ali Hassan's Professional Journey
+    title Ahmad Hassan's Professional Journey
     
     2021 : Started Programming
          : First HTML/CSS Projects
