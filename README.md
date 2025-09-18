@@ -25,89 +25,101 @@
 
 <div align="center">
 
-```typescript
-interface DevOpsEngineer {
-  name: string;
-  role: string;
-  location: string;
-  experience: string;
-  availability: string;
-}
+```python
+from dataclasses import dataclass, field
+from typing import List, Dict
 
-interface TechnicalExpertise {
-  infrastructure: string[];
-  containers: string[];
-  orchestration: string[];
-  ci_cd: string[];
-  cloud: string[];
-  monitoring_logging: string[];
-  security: string[];
-  automation: string[];
-  scm: string[];
-}
 
-interface ProfessionalProfile {
-  role: DevOpsEngineer;
-  expertise: TechnicalExpertise;
-  achievements: string[];
-  currentFocus: string[];
-}
+@dataclass
+class DevOpsEngineer:
+    name: str
+    role: str
+    location: str
+    experience: str
+    availability: str
 
-class AhmadHassan implements ProfessionalProfile {
-  role: DevOpsEngineer = {
-    name: "Ahmad Hassan",
-    role: "DevOps Engineer & Full-Stack Developer",
-    location: "Islamabad, Pakistan (Remote Worldwide)",
-    experience: "3+ Years in Enterprise Development & Deployments",
-    availability: "Open for DevOps Positions & AIOps Consulting"
-  };
 
-const TechnicalExpertise = {
-  infrastructure: ["Linux", "Networking", "Infrastructure as Code (IaC)", "Terraform", "Ansible"],
-  containers: ["Docker", "Docker Compose", "Podman"],
-  orchestration: ["Kubernetes", "Helm", "Kustomize", "EKS", "GKE"],
-  ci_cd: ["GitHub Actions", "GitLab CI/CD", "Jenkins", "ArgoCD"],
-  cloud: ["AWS", "Azure", "GCP", "DigitalOcean"],
-  monitoring_logging: ["Prometheus", "Grafana", "ELK/EFK Stack", "Loki", "Alertmanager"],
-  security: ["Secrets Management", "Vault", "SSL/TLS", "Fail2Ban", "Firewalls"],
-  automation: ["Bash", "Python", "Go (basics)"],
-  scm: ["Git", "GitHub", "GitLab", "Bitbucket"]
-};
+@dataclass
+class TechnicalExpertise:
+    infrastructure: List[str]
+    containers: List[str]
+    orchestration: List[str]
+    ci_cd: List[str]
+    cloud: List[str]
+    monitoring_logging: List[str]
+    security: List[str]
+    automation: List[str]
+    scm: List[str]
 
-const achievements: string[] = [
-  "🏆 Designed & deployed scalable Kubernetes clusters handling 1M+ requests/day",
-  "⚡ Automated CI/CD pipelines reducing deployment time by 70%",
-  "🌟 Implemented monitoring/alerting with Prometheus & Grafana across multi-cloud setups",
-  "🚀 Containerized 20+ applications with Docker & Kubernetes",
-  "🔐 Strengthened cloud security with IAM, secrets management & SSL automation",
-  "📈 Reduced infrastructure costs by 30% through efficient resource optimization"
-];
 
-const currentFocus: string[] = [
-  "Kubernetes Operators & GitOps with ArgoCD",
-  "Terraform advanced workflows & multi-cloud deployments",
-  "Scalable monitoring with Prometheus, Grafana & OpenTelemetry",
-  "Cloud-native security best practices (CIS Benchmarks, Zero Trust)",
-  "AI-driven DevOps automation (AIOps) & self-healing infrastructure"
-];
+@dataclass
+class ProfessionalProfile:
+    role: DevOpsEngineer
+    expertise: TechnicalExpertise
+    achievements: List[str]
+    current_focus: List[str]
 
-  getContactInfo() {
-    return {
-      email: "ahrops@opsven.com",
-      portfolio: "https://ahrops.opsven.com",
-      calendar: "https://calendly.com/ahmadhassanraza", 
-      linkedin: "https://linkedin.com/in/ahmadhassanraza",
-      github: "https://github.com/ahmadhassanraza"
-    };
-  }
 
-  getAvailability() {
-    return "Available for devops engineer roles, technical consulting, and challenging projects";
-  }
-}
+class AhmadHassan(ProfessionalProfile):
+    def __init__(self):
+        role = DevOpsEngineer(
+            name="Ahmad Hassan",
+            role="DevOps Engineer & Full-Stack Developer",
+            location="Islamabad, Pakistan (Remote Worldwide)",
+            experience="3+ Years in Enterprise Development & Deployments",
+            availability="Open for DevOps Positions & AIOps Consulting"
+        )
 
-const profile = new AhmadHassan();
-console.log("🎯 AI Native DevOps Engineer Profile Loaded Successfully!");
+        expertise = TechnicalExpertise(
+            infrastructure=["Linux", "Networking", "Infrastructure as Code (IaC)", "Terraform", "Ansible"],
+            containers=["Docker", "Docker Compose", "Podman"],
+            orchestration=["Kubernetes", "Helm", "Kustomize", "EKS", "GKE"],
+            ci_cd=["GitHub Actions", "GitLab CI/CD", "Jenkins", "ArgoCD"],
+            cloud=["AWS", "Azure", "GCP", "DigitalOcean"],
+            monitoring_logging=["Prometheus", "Grafana", "ELK/EFK Stack", "Loki", "Alertmanager"],
+            security=["Secrets Management", "Vault", "SSL/TLS", "Fail2Ban", "Firewalls"],
+            automation=["Bash", "Python", "Go (basics)"],
+            scm=["Git", "GitHub", "GitLab", "Bitbucket"]
+        )
+
+        achievements = [
+            "🏆 Designed & deployed scalable Kubernetes clusters handling 1M+ requests/day",
+            "⚡ Automated CI/CD pipelines reducing deployment time by 70%",
+            "🌟 Implemented monitoring/alerting with Prometheus & Grafana across multi-cloud setups",
+            "🚀 Containerized 20+ applications with Docker & Kubernetes",
+            "🔐 Strengthened cloud security with IAM, secrets management & SSL automation",
+            "📈 Reduced infrastructure costs by 30% through efficient resource optimization"
+        ]
+
+        current_focus = [
+            "Kubernetes Operators & GitOps with ArgoCD",
+            "Terraform advanced workflows & multi-cloud deployments",
+            "Scalable monitoring with Prometheus, Grafana & OpenTelemetry",
+            "Cloud-native security best practices (CIS Benchmarks, Zero Trust)",
+            "AI-driven DevOps automation (AIOps) & self-healing infrastructure"
+        ]
+
+        super().__init__(role, expertise, achievements, current_focus)
+
+    def get_contact_info(self) -> Dict[str, str]:
+        return {
+            "email": "ahrops@opsven.com",
+            "portfolio": "https://ahrops.opsven.com",
+            "calendar": "https://calendly.com/ahmadhassanraza",
+            "linkedin": "https://linkedin.com/in/ahmadhassanraza",
+            "github": "https://github.com/ahmadhassanraza"
+        }
+
+    def get_availability(self) -> str:
+        return "Available for DevOps engineer roles, technical consulting, and challenging projects"
+
+
+if __name__ == "__main__":
+    profile = AhmadHassan()
+    print("🎯 AI Native DevOps Engineer Profile Loaded Successfully!")
+    print("👤 Name:", profile.role.name)
+    print("📍 Location:", profile.role.location)
+    print("💡 Current Focus:", ", ".join(profile.current_focus[:2]), "...")
 ```
 
 </div>
