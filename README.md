@@ -212,11 +212,11 @@ Features: {
 
 **🚀 Technical Accomplishments:**
 
-- ⚡ **Zero-Downtime Deployments** with Blue-Green & Rolling strategies
-- 🔄 **End-to-End CI/CD Automation** from GitHub push → production release
-- 🛡️ **Enterprise-Grade Security** with RBAC, SSL/TLS, and secret rotation
-- 📊 **Real-Time Monitoring & Alerts** integrated with Prometheus, Grafana & Slack
-- 🏗️ **Infrastructure as Code** reproducible in minutes using Terraform & Ansible
+⚡ **Zero-Downtime Deployments** with Blue-Green & Rolling strategies
+🔄 **End-to-End CI/CD Automation** from GitHub push → production release
+🛡️ **Enterprise-Grade Security** with RBAC, SSL/TLS, and secret rotation
+📊 **Real-Time Monitoring & Alerts** integrated with Prometheus, Grafana & Slack
+🏗️ **Infrastructure as Code** reproducible in minutes using Terraform & Ansible
 
 ---
 
