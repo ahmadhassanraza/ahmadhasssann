@@ -15,13 +15,13 @@
   
 [![Profile Views](https://komarev.com/ghpvc/?username=ahmadhassanraza&label=Profile%20Views&color=0891b2&style=for-the-badge)](https://github.com/ahmadhassanraza)
 [![GitHub Followers](https://img.shields.io/github/followers/ahmadhassanraza?label=Followers&style=for-the-badge&color=blue&logo=github)](https://github.com/ahmadhassanraza?tab=followers)
-[![Stars](https://img.shields.io/github/stars/ahmadhassanraza?label=Stars&style=for-the-badge/Stars-1.2k-color=yellow&logo=github)](https://github.com/ahmadhassanraza?tab=repositories)
+[![Stars](https://img.shields.io/github/stars/ahmadhassanraza?label=Stars&style=for-the-badge/&color=yellow&logo=github)](https://github.com/ahmadhassanraza?tab=repositories)
 
 </div>
 
 ---
 
-## 🎯 Professional Summary
+### 🎯 Professional Summary
 
 <div align="center">
 
