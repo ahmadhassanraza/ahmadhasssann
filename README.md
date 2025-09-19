@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://ahrops.opsven.com">
+  <a href="https://ahmadhassanraza.com">
     <img 
       src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,16,19,24,30&height=160&section=header&text=Ahmad%20Hassan&fontSize=40&fontColor=fff&animation=fadeIn&fontAlignY=32&desc=DevOps%20Engineer%20%7C%205xK8s%20%7C%20Aspiring%20Kubestronaut&descAlignY=51&descAlign=62" 
       width="100%"
@@ -15,7 +15,7 @@
   
 [![Profile Views](https://komarev.com/ghpvc/?username=ahmadhassanraza&label=Profile%20Views&color=0891b2&style=for-the-badge)](https://github.com/ahmadhassanraza)
 [![GitHub Followers](https://img.shields.io/github/followers/ahmadhassanraza?label=Followers&style=for-the-badge&color=blue&logo=github)](https://github.com/ahmadhassanraza?tab=followers)
-[![Stars](https://img.shields.io/github/stars/ahmadhassanraza?label=Stars&style=for-the-badge&color=yellow&logo=github)](https://github.com/ahmadhassanraza?tab=repositories)
+[![Stars](https://img.shields.io/github/stars/ahmadhassanraza?label=Stars&style=for-the-badge/Stars-1.2k-color=yellow&logo=github)](https://github.com/ahmadhassanraza?tab=repositories)
 
 </div>
 
@@ -25,180 +25,131 @@
 
 <div align="center">
 
-```python
-from dataclasses import dataclass, field
-from typing import List, Dict
+```go
+package main
 
+import (
+	"fmt"
+)
 
-@dataclass
-class DevOpsEngineer:
-    name: str
-    role: str
-    location: str
-    experience: str
-    availability: str
+type DevOpsEngineer struct {
+	Name        string
+	Role        string
+	Location    string
+	Experience  string
+	Availability string
+}
 
+type TechnicalExpertise struct {
+	Infrastructure    []string
+	Containers        []string
+	Orchestration     []string
+	CICD              []string
+	Cloud             []string
+	MonitoringLogging []string
+	Security          []string
+	Automation        []string
+	SCM               []string
+}
 
-@dataclass
-class TechnicalExpertise:
-    infrastructure: List[str]
-    containers: List[str]
-    orchestration: List[str]
-    ci_cd: List[str]
-    cloud: List[str]
-    monitoring_logging: List[str]
-    security: List[str]
-    automation: List[str]
-    scm: List[str]
+type ProfessionalProfile struct {
+	Role        DevOpsEngineer
+	Expertise   TechnicalExpertise
+	Achievements []string
+	CurrentFocus []string
+}
 
+type AhmadHassan struct {
+	Profile ProfessionalProfile
+}
 
-@dataclass
-class ProfessionalProfile:
-    role: DevOpsEngineer
-    expertise: TechnicalExpertise
-    achievements: List[str]
-    current_focus: List[str]
+func (a AhmadHassan) GetContactInfo() map[string]string {
+	return map[string]string{
+		"email":     "ahrops@opsven.com",
+		"portfolio": "https://ahrops.opsven.com",
+		"calendar":  "https://calendly.com/ahmadhassanraza",
+		"linkedin":  "https://linkedin.com/in/ahmadhassanraza",
+		"github":    "https://github.com/ahmadhassanraza",
+	}
+}
 
+func (a AhmadHassan) GetAvailability() string {
+	return "Available for DevOps engineer roles, technical consulting, and challenging projects"
+}
 
-class AhmadHassan(ProfessionalProfile):
-    def __init__(self):
-        role = DevOpsEngineer(
-            name="Ahmad Hassan",
-            role="DevOps Engineer & Full-Stack Developer",
-            location="Islamabad, Pakistan (Remote Worldwide)",
-            experience="3+ Years in Enterprise Development & Deployments",
-            availability="Open for DevOps Positions & AIOps Consulting"
-        )
+func main() {
+	ahmad := AhmadHassan{
+		Profile: ProfessionalProfile{
+			Role: DevOpsEngineer{
+				Name:        "Ahmad Hassan",
+				Role:        "DevOps Engineer & Full-Stack Developer",
+				Location:    "Islamabad, Pakistan (Remote Worldwide)",
+				Experience:  "3+ Years in Enterprise Development & Deployments",
+				Availability: "Open for DevOps Positions & AIOps Consulting",
+			},
+			Expertise: TechnicalExpertise{
+				Infrastructure:    []string{"Linux", "Networking", "Infrastructure as Code (IaC)", "Terraform", "Ansible"},
+				Containers:        []string{"Docker", "Docker Compose", "Podman"},
+				Orchestration:     []string{"Kubernetes", "Helm", "Kustomize", "EKS", "GKE"},
+				CICD:              []string{"GitHub Actions", "GitLab CI/CD", "Jenkins", "ArgoCD"},
+				Cloud:             []string{"AWS", "Azure", "GCP", "DigitalOcean"},
+				MonitoringLogging: []string{"Prometheus", "Grafana", "ELK/EFK Stack", "Loki", "Alertmanager"},
+				Security:          []string{"Secrets Management", "Vault", "SSL/TLS", "Fail2Ban", "Firewalls"},
+				Automation:        []string{"Bash", "Python", "Go"},
+				SCM:               []string{"Git", "GitHub", "GitLab", "Bitbucket"},
+			},
+			Achievements: []string{
+				"🏆 Designed & deployed scalable Kubernetes clusters handling 1M+ requests/day",
+				"⚡ Automated CI/CD pipelines reducing deployment time by 70%",
+				"🌟 Implemented monitoring/alerting with Prometheus & Grafana across multi-cloud setups",
+				"🚀 Containerized 20+ applications with Docker & Kubernetes",
+				"🔐 Strengthened cloud security with IAM, secrets management & SSL automation",
+				"📈 Reduced infrastructure costs by 30% through efficient resource optimization",
+			},
+			CurrentFocus: []string{
+				"Kubernetes Operators & GitOps with ArgoCD",
+				"Terraform advanced workflows & multi-cloud deployments",
+				"Scalable monitoring with Prometheus, Grafana & OpenTelemetry",
+				"Cloud-native security best practices (CIS Benchmarks, Zero Trust)",
+				"AI-driven DevOps automation (AIOps) & self-healing infrastructure",
+			},
+		},
+	}
 
-        expertise = TechnicalExpertise(
-            infrastructure=["Linux", "Networking", "Infrastructure as Code (IaC)", "Terraform", "Ansible"],
-            containers=["Docker", "Docker Compose", "Podman"],
-            orchestration=["Kubernetes", "Helm", "Kustomize", "EKS", "GKE"],
-            ci_cd=["GitHub Actions", "GitLab CI/CD", "Jenkins", "ArgoCD"],
-            cloud=["AWS", "Azure", "GCP", "DigitalOcean"],
-            monitoring_logging=["Prometheus", "Grafana", "ELK/EFK Stack", "Loki", "Alertmanager"],
-            security=["Secrets Management", "Vault", "SSL/TLS", "Fail2Ban", "Firewalls"],
-            automation=["Bash", "Python", "Go (basics)"],
-            scm=["Git", "GitHub", "GitLab", "Bitbucket"]
-        )
+	fmt.Println("🎯 AI Native DevOps Engineer Profile Loaded Successfully!")
 
-        achievements = [
-            "🏆 Designed & deployed scalable Kubernetes clusters handling 1M+ requests/day",
-            "⚡ Automated CI/CD pipelines reducing deployment time by 70%",
-            "🌟 Implemented monitoring/alerting with Prometheus & Grafana across multi-cloud setups",
-            "🚀 Containerized 20+ applications with Docker & Kubernetes",
-            "🔐 Strengthened cloud security with IAM, secrets management & SSL automation",
-            "📈 Reduced infrastructure costs by 30% through efficient resource optimization"
-        ]
-
-        current_focus = [
-            "Kubernetes Operators & GitOps with ArgoCD",
-            "Terraform advanced workflows & multi-cloud deployments",
-            "Scalable monitoring with Prometheus, Grafana & OpenTelemetry",
-            "Cloud-native security best practices (CIS Benchmarks, Zero Trust)",
-            "AI-driven DevOps automation (AIOps) & self-healing infrastructure"
-        ]
-
-        super().__init__(role, expertise, achievements, current_focus)
-
-    def get_contact_info(self) -> Dict[str, str]:
-        return {
-            "email": "ahrops@opsven.com",
-            "portfolio": "https://ahrops.opsven.com",
-            "calendar": "https://calendly.com/ahmadhassanraza",
-            "linkedin": "https://linkedin.com/in/ahmadhassanraza",
-            "github": "https://github.com/ahmadhassanraza"
-        }
-
-    def get_availability(self) -> str:
-        return "Available for DevOps engineer roles, technical consulting, and challenging projects"
-
-
-if __name__ == "__main__":
-    profile = AhmadHassan()
-    print("🎯 AI Native DevOps Engineer Profile Loaded Successfully!")
-    print("👤 Name:", profile.role.name)
-    print("📍 Location:", profile.role.location)
-    print("💡 Current Focus:", ", ".join(profile.current_focus[:2]), "...")
+	fmt.Println("Contact Info:", ahmad.GetContactInfo())
+	fmt.Println("Availability:", ahmad.GetAvailability())
+}
 ```
 
 </div>
 
 ---
 
-## 💼 DevOps Tech Stack & Programming Skills
+## 💼 Technical Expertise | DevOps Tech Stack & Programming Skills
 
 | **Category** | **Tools** |
 |--------------|-----------|
-| 🐳 **Containers & Orchestration** | [![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=flat-square)](https://www.docker.com/) [![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?logo=kubernetes&logoColor=white&style=flat-square)](https://kubernetes.io/) |
-| ☁️ **Cloud Platforms** | [![AWS](https://img.shields.io/badge/-AWS-FF9900?logo=amazonaws&logoColor=white&style=flat-square)](https://aws.amazon.com/) [![Azure](https://img.shields.io/badge/-Azure-0078D4?logo=microsoft-azure&logoColor=white&style=flat-square)](https://azure.microsoft.com/) [![DigitalOcean](https://img.shields.io/badge/-DigitalOcean-0080FF?logo=digitalocean&logoColor=white&style=flat-square)](https://www.digitalocean.com/) |
-| 🛠️ **CI/CD & Automation** | [![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?logo=github-actions&logoColor=white&style=flat-square)](https://github.com/features/actions) [![GitLab CI](https://img.shields.io/badge/-GitLab_CI-FC6D26?logo=gitlab&logoColor=white&style=flat-square)](https://docs.gitlab.com/ee/ci/) [![CircleCI](https://img.shields.io/badge/-CircleCI-343434?logo=circleci&logoColor=white&style=flat-square)](https://circleci.com/) [![Jenkins](https://img.shields.io/badge/-Jenkins-D24939?logo=jenkins&logoColor=white&style=flat-square)](https://www.jenkins.io/) |
-| ⚙️ **IaC & Config Mgmt** | [![Ansible](https://img.shields.io/badge/-Ansible-EE0000?logo=ansible&logoColor=white&style=flat-square)](https://www.ansible.com/) [![Terraform](https://img.shields.io/badge/-Terraform-623CE4?logo=terraform&logoColor=white&style=flat-square)](https://www.terraform.io/) [![Vagrant](https://img.shields.io/badge/-Vagrant-1563FF?logo=vagrant&logoColor=white&style=flat-square)](https://www.vagrantup.com/) |
-| 🧠 **Monitoring & Observability** | [![Grafana](https://img.shields.io/badge/-Grafana-F46800?logo=grafana&logoColor=white&style=flat-square)](https://grafana.com/) [![Prometheus](https://img.shields.io/badge/-Prometheus-E6522C?logo=prometheus&logoColor=white&style=flat-square)](https://prometheus.io/) [![Datadog](https://img.shields.io/badge/-Datadog-632CA6?logo=datadog&logoColor=white&style=flat-square)](https://www.datadoghq.com/) [![New Relic](https://img.shields.io/badge/-New%20Relic-008C99?logo=newrelic&logoColor=white&style=flat-square)](https://newrelic.com/) [![ELK Stack](https://img.shields.io/badge/-ELK%20Stack-005571?logo=elasticstack&logoColor=white&style=flat-square)](https://www.elastic.co/what-is/elk-stack) [![Zabbix](https://img.shields.io/badge/-Zabbix-C60F2F?logo=zabbix&logoColor=white&style=flat-square)](https://www.zabbix.com/) [![Nagios](https://img.shields.io/badge/-Nagios-222222?logo=nagios&logoColor=white&style=flat-square)](https://www.nagios.org/) [![Splunk](https://img.shields.io/badge/-Splunk-000000?logo=splunk&logoColor=white&style=flat-square)](https://www.splunk.com/) |
-| 🌐 **Web & Servers** | [![Nginx](https://img.shields.io/badge/-Nginx-009639?logo=nginx&logoColor=white&style=flat-square)](https://www.nginx.com/) [![Apache](https://img.shields.io/badge/-Apache-D42029?logo=apache&logoColor=white&style=flat-square)](https://httpd.apache.org/) [![Tomcat](https://img.shields.io/badge/-Tomcat-F8DC75?logo=apache-tomcat&logoColor=black&style=flat-square)](https://tomcat.apache.org/) |
-| 💽 **Databases** | [![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white&style=flat-square)](https://www.mysql.com/) [![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white&style=flat-square)](https://www.mongodb.com/) [![DynamoDB](https://img.shields.io/badge/-DynamoDB-4053D6?logo=amazondynamodb&logoColor=white&style=flat-square)](https://aws.amazon.com/dynamodb/) |
-| 💻 **Programming Languages** | [![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat-square)](https://www.python.org/) [![C](https://img.shields.io/badge/-C-A8B9CC?logo=c&logoColor=black&style=flat-square)](https://en.wikipedia.org/wiki/C_(programming_language)) [![C++](https://img.shields.io/badge/-C++-00599C?logo=c%2b%2b&logoColor=white&style=flat-square)](https://isocpp.org/) [![HTML](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=flat-square)](https://developer.mozilla.org/en-US/docs/Web/HTML) [![CSS](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=flat-square)](https://developer.mozilla.org/en-US/docs/Web/CSS) |
-
-## 🛡️ Technical Expertise & Certifications  
-
-<div align="center">
-
-### 🏗️ **Infrastructure & Architecture**  
-![Linux](https://img.shields.io/badge/Linux-Expert-FCC624?style=for-the-badge&logo=linux&logoColor=black)  
-![Networking](https://img.shields.io/badge/Networking-Advanced-0078D7?style=for-the-badge&logo=cisco&logoColor=white)  
-![Terraform](https://img.shields.io/badge/Terraform-Expert-844FBA?style=for-the-badge&logo=terraform&logoColor=white)  
-![Ansible](https://img.shields.io/badge/Ansible-Advanced-EE0000?style=for-the-badge&logo=ansible&logoColor=white)  
-
-### 📦 **Containers & Orchestration**  
-![Docker](https://img.shields.io/badge/Docker-Expert-2496ED?style=for-the-badge&logo=docker&logoColor=white)  
-![Kubernetes](https://img.shields.io/badge/Kubernetes-Advanced-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)  
-![Helm](https://img.shields.io/badge/Helm-Intermediate-0F1689?style=for-the-badge&logo=helm&logoColor=white)  
-![Kustomize](https://img.shields.io/badge/Kustomize-Intermediate-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)  
-
-### 🔄 **CI/CD & Automation**  
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-Expert-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)  
-![GitLab CI/CD](https://img.shields.io/badge/GitLab_CI/CD-Advanced-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)  
-![Jenkins](https://img.shields.io/badge/Jenkins-Intermediate-D24939?style=for-the-badge&logo=jenkins&logoColor=white)  
-![ArgoCD](https://img.shields.io/badge/ArgoCD-Intermediate-FD7E14?style=for-the-badge&logo=argo&logoColor=white)  
-
-### ☁️ **Cloud Platforms**  
-![AWS](https://img.shields.io/badge/AWS-Advanced-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)  
-![Azure](https://img.shields.io/badge/Azure-Intermediate-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)  
-![GCP](https://img.shields.io/badge/GCP-Intermediate-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)  
-![DigitalOcean](https://img.shields.io/badge/DigitalOcean-Advanced-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white)  
-
-### 📊 **Monitoring & Logging**  
-![Prometheus](https://img.shields.io/badge/Prometheus-Expert-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)  
-![Grafana](https://img.shields.io/badge/Grafana-Expert-F46800?style=for-the-badge&logo=grafana&logoColor=white)  
-![ELK Stack](https://img.shields.io/badge/ELK_Stack-Advanced-005571?style=for-the-badge&logo=elasticstack&logoColor=white)  
-![Loki](https://img.shields.io/badge/Loki-Intermediate-4A90E2?style=for-the-badge&logo=grafana&logoColor=white)  
-
-### 🔐 **Security & Compliance**  
-![Vault](https://img.shields.io/badge/HashiCorp_Vault-Advanced-000000?style=for-the-badge&logo=vault&logoColor=white)  
-![SSL/TLS](https://img.shields.io/badge/SSL/TLS-Expert-003366?style=for-the-badge&logo=letsencrypt&logoColor=white)  
-![Fail2Ban](https://img.shields.io/badge/Fail2Ban-Intermediate-006600?style=for-the-badge&logo=linux&logoColor=white)  
-![Firewall](https://img.shields.io/badge/Firewalls-Advanced-FF0000?style=for-the-badge&logo=fortinet&logoColor=white)  
-
-### ⚙️ **Scripting & Automation**  
-![Bash](https://img.shields.io/badge/Bash-Expert-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)  
-![Python](https://img.shields.io/badge/Python-Advanced-3776AB?style=for-the-badge&logo=python&logoColor=white)  
-![Go](https://img.shields.io/badge/Go-Beginner-00ADD8?style=for-the-badge&logo=go&logoColor=white)  
-
-### 🔧 **Version Control & Collaboration**  
-![Git](https://img.shields.io/badge/Git-Expert-F05032?style=for-the-badge&logo=git&logoColor=white)  
-![GitHub](https://img.shields.io/badge/GitHub-Expert-181717?style=for-the-badge&logo=github&logoColor=white)  
-![GitLab](https://img.shields.io/badge/GitLab-Advanced-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)  
-![Bitbucket](https://img.shields.io/badge/Bitbucket-Intermediate-0052CC?style=for-the-badge&logo=bitbucket&logoColor=white)  
-
-</div>
-
----
+| 🐳 **Containers & Orchestration** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white) ![Kustomize](https://img.shields.io/badge/Kustomize-326CE5?style=flat-square&logo=kubernetes&logoColor=white) |
+| ☁️ **Cloud Platforms** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) ![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white) ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=flat-square&logo=digitalocean&logoColor=white) |
+| 🔄 **CI/CD & Automation** | ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![GitLab CI/CD](https://img.shields.io/badge/GitLab_CI/CD-FC6D26?style=flat-square&logo=gitlab&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white) ![ArgoCD](https://img.shields.io/badge/ArgoCD-FD7E14?style=flat-square&logo=argo&logoColor=white) |
+| ⚙️ **IaC & Config Mgmt** | ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white) ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white) ![Vagrant](https://img.shields.io/badge/Vagrant-1563FF?style=flat-square&logo=vagrant&logoColor=white) |
+| 📊 **Monitoring & Logging** | ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) ![ELK Stack](https://img.shields.io/badge/ELK_Stack-005571?style=flat-square&logo=elasticstack&logoColor=white) ![Loki](https://img.shields.io/badge/Loki-4A90E2?style=flat-square&logo=grafana&logoColor=white) |
+| 🌐 **Web & Servers** | ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white) ![Apache](https://img.shields.io/badge/Apache-D42029?style=flat-square&logo=apache&logoColor=white) ![Tomcat](https://img.shields.io/badge/Tomcat-F8DC75?style=flat-square&logo=apachetomcat&logoColor=black) |
+| 💽 **Databases** | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white) |
+| 💻 **Programming Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) |
+| ⚙️ **Scripting & Automation** | ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) |
+| 🔧 **Version Control & Collaboration** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white) ![Bitbucket](https://img.shields.io/badge/Bitbucket-0052CC?style=flat-square&logo=bitbucket&logoColor=white) |
+| 🏗️ **Infrastructure & Architecture** | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Networking](https://img.shields.io/badge/Networking-0078D7?style=flat-square&logo=cisco&logoColor=white) |
+| 🔐 **Security & Compliance** | ![Vault](https://img.shields.io/badge/Vault-000000?style=flat-square&logo=vault&logoColor=white) ![SSL/TLS](https://img.shields.io/badge/SSL/TLS-003366?style=flat-square&logo=letsencrypt&logoColor=white) ![Fail2Ban](https://img.shields.io/badge/Fail2Ban-006600?style=flat-square&logo=linux&logoColor=white) ![Firewalls](https://img.shields.io/badge/Firewalls-FF0000?style=flat-square&logo=fortinet&logoColor=white) |
 
 ## 🏆 Featured Projects & Case Studies
 
 <div align="center">
 
 ### 🌟 **Enterprise-Grade CI/CD Pipeline - AHROPS Opsven**
+
 [![Docs](https://img.shields.io/badge/🌐_Docs-View_Pipeline-success?style=for-the-badge&logo=githubactions)](https://github.com/ahrops)
 [![Source Code](https://img.shields.io/badge/📝_Source-View_Code-blue?style=for-the-badge&logo=github)](https://github.com/ahrops)
 
@@ -207,6 +158,7 @@ if __name__ == "__main__":
 **⚡ Performance:** Zero-downtime deployments with rollback in <30s
 
 **Tech Stack Deep Dive:**
+
 ```yaml
 CI/CD:
   - GitHub Actions workflows
@@ -228,6 +180,7 @@ Security:
 ```
 
 **🚀 Key Achievements:**
+
 - ⚡ **Zero-Downtime Deployments** with rolling updates
 - 🔄 **Automated CI/CD Pipeline** from GitHub push → production release
 - 🛡️ **Hardened Security** with RBAC, SSL, and secret rotation
@@ -237,6 +190,7 @@ Security:
 ---
 
 ### 🎯 **Advanced DevOps Delivery - Opsven Platform**
+
 [![Live Demo](https://img.shields.io/badge/🌐_Deployed_App-Visit_Site-success?style=for-the-badge&logo=docker)](https://your-production-link.com)
 [![Case Study](https://img.shields.io/badge/📊_Case_Study-Read_More-orange?style=for-the-badge&logo=notion)](https://your-case-study-link.com)
 
@@ -245,6 +199,7 @@ Security:
 **👥 Impact:** Enabled 99.9% uptime, faster deployments, and scalable infra across teams
 
 **Advanced Features Implemented:**
+
 ```typescript
 Features: {
   ci_cd: ["Automated builds", "GitHub Actions pipelines", "Blue-Green/Rolling deployments"],
@@ -256,6 +211,7 @@ Features: {
 ```
 
 **🚀 Technical Accomplishments:**
+
 - ⚡ **Zero-Downtime Deployments** with Blue-Green & Rolling strategies
 - 🔄 **End-to-End CI/CD Automation** from GitHub push → production release
 - 🛡️ **Enterprise-Grade Security** with RBAC, SSL/TLS, and secret rotation
@@ -266,12 +222,12 @@ Features: {
 
 ### 📚 **More Premium DevOps Projects**
 
-| Project | Type | Tools/Stack | Status | Demo |
-|---------|------|-------------|--------|------|
-| **Kubernetes E-Commerce Infra** | Cloud Infra | K8s, Helm, Istio, Terraform | 🚀 Live | [View](https://demo-link.com) |
-| **AI ChatOps Pipeline** | CI/CD | GitHub Actions, Docker, OpenAI API | 🚧 Development | [Preview](https://preview-link.com) |
-| **Enterprise Task System Infra** | Orchestration | Docker Swarm, Redis, Nginx | ✅ Complete | [Demo](https://demo-link.com) |
-| **Monitoring & Analytics Stack** | Observability | Prometheus, Grafana, Loki | ✅ Complete | [View](https://demo-link.com) |
+| Project                          | Type          | Tools/Stack                        | Status         | Demo                                |
+| -------------------------------- | ------------- | ---------------------------------- | -------------- | ----------------------------------- |
+| **Kubernetes E-Commerce Infra**  | Cloud Infra   | K8s, Helm, Istio, Terraform        | 🚀 Live        | [View](https://demo-link.com)       |
+| **AI ChatOps Pipeline**          | CI/CD         | GitHub Actions, Docker, OpenAI API | 🚧 Development | [Preview](https://preview-link.com) |
+| **Enterprise Task System Infra** | Orchestration | Docker Swarm, Redis, Nginx         | ✅ Complete    | [Demo](https://demo-link.com)       |
+| **Monitoring & Analytics Stack** | Observability | Prometheus, Grafana, Loki          | ✅ Complete    | [View](https://demo-link.com)       |
 
 [![View All Projects](https://img.shields.io/badge/🚀_View_All_Projects-Explore_Portfolio-09ADB8?style=for-the-badge&logo=github)](https://github.com/ahmadhassanraza?tab=repositories)
 
@@ -284,19 +240,24 @@ Features: {
 <div align="center">
 
 ### 📈 **Performance Metrics & Statistics**
+
 <img height="200em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=ahmadhassanraza&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&custom_title=🏆%20Ali's%20GitHub%20Performance&show_owner=true" />
 <img height="200em" src="https://streak-stats.demolab.com?user=ahmadhassanraza&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=400&ring=09adb8&fire=09adb8&currStreakLabel=09adb8" />
 
 ### 💻 **Code Distribution & Language Expertise**
+
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmadhassanraza&layout=compact&theme=tokyonight&hide_border=true&langs_count=12&custom_title=🔥%20Language%20Expertise%20Breakdown&card_width=600" />
 
 ### 🏆 **Achievement Showcase**
+
 <img src="https://github-profile-trophy.vercel.app/?username=ahmadhassanraza&theme=tokyonight&row=3&column=4&margin-h=8&margin-w=8&no-bg=false&no-frame=false&title=MultiLanguage,Followers,Stars,Commit,PullRequest,Issues,Repositories,Organizations,Experience,Reviews,Discussions,Sponsors" width="100%"/>
 
 ### 📊 **Detailed Contribution Insights**
+
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=ahmadhassanraza&bg_color=1a1b27&color=38bdae&line=70a5fd&point=bf91f3&area=true&hide_border=true&custom_title=Annual%20Contribution%20Activity%20Graph" width="100%">
 
 ### 🎯 **Advanced Statistics**
+
 ![GitHub metrics](https://metrics.lecoq.io/ahmadhassanraza?template=classic&base.header=0&base.activity=0&base.community=0&base.repositories=0&base.metadata=0&achievements=1&achievements.threshold=C&achievements.secrets=true&achievements.display=detailed&achievements.limit=0&config.timezone=Asia%2FKarachi)
 
 </div>
@@ -315,16 +276,17 @@ Features: {
 
 ### 🚀 **Current Learning Path & Objectives**
 
-| Quarter | Focus Area | Technologies / Tools | Target Completion | Status |
-|---------|------------|----------------------|-------------------|---------|
-| **Q4 2024** | Cloud Foundations | AWS, GCP, Linux Hardening | Dec 2024 | ![90%](https://progress-bar.dev/90/?title=90%25&color=4caf50) |
-| **Q1 2025** | Containers & Orchestration | Docker, Kubernetes, Helm, Istio | Mar 2025 | ![65%](https://progress-bar.dev/65/?title=65%25&color=2196f3) |
-| **Q2 2025** | Infrastructure as Code | Terraform, Ansible, Pulumi | Jun 2025 | ![40%](https://progress-bar.dev/40/?title=40%25&color=ff9800) |
-| **Q3 2025** | Observability & Automation | Prometheus, Grafana, Loki, GitHub Actions | Sep 2025 | ![20%](https://progress-bar.dev/20/?title=20%25&color=9c27b0) |
+| Quarter     | Focus Area                 | Technologies / Tools                      | Target Completion | Status                                                        |
+| ----------- | -------------------------- | ----------------------------------------- | ----------------- | ------------------------------------------------------------- |
+| **Q4 2024** | Cloud Foundations          | AWS, GCP, Linux Hardening                 | Dec 2024          | ![90%](https://progress-bar.dev/90/?title=90%25&color=4caf50) |
+| **Q1 2025** | Containers & Orchestration | Docker, Kubernetes, Helm, Istio           | Mar 2025          | ![65%](https://progress-bar.dev/65/?title=65%25&color=2196f3) |
+| **Q2 2025** | Infrastructure as Code     | Terraform, Ansible, Pulumi                | Jun 2025          | ![40%](https://progress-bar.dev/40/?title=40%25&color=ff9800) |
+| **Q3 2025** | Observability & Automation | Prometheus, Grafana, Loki, GitHub Actions | Sep 2025          | ![20%](https://progress-bar.dev/20/?title=20%25&color=9c27b0) |
 
 </div>
 
 ### 📚 **Currently Reading & Learning**
+
 ```yaml
 Books:
   - "Site Reliability Engineering" by Niall Richard Murphy
@@ -344,6 +306,7 @@ Conferences & Events:
 ```
 
 ### 🎖️ **Certifications & Achievements**
+
 ![AWS](https://img.shields.io/badge/AWS-DevOps_Engineer-In_Progress-orange?style=for-the-badge&logo=amazonaws)
 ![Google](https://img.shields.io/badge/Google-Cloud_Professional-Planning-blue?style=for-the-badge&logo=googlecloud)
 ![HashiCorp](https://img.shields.io/badge/HashiCorp-Terraform_Advanced-Completed-green?style=for-the-badge&logo=hashicorp)
@@ -365,6 +328,7 @@ Conferences & Events:
 <td align="center" width="33%">
 
 **☁️ Cloud & DevOps**
+
 - AWS, Azure, GCP deployments
 - CI/CD pipeline setup with GitHub Actions & Jenkins
 - Docker & Kubernetes orchestration
@@ -376,6 +340,7 @@ Conferences & Events:
 <td align="center" width="33%">
 
 **🏗️ Backend & API Development**
+
 - Node.js, Express.js, FastAPI services
 - Microservices & Serverless architecture
 - API design & GraphQL/RESTful APIs
@@ -386,6 +351,7 @@ Conferences & Events:
 <td align="center" width="33%">
 
 **🎨 Frontend & Performance**
+
 - React/Next.js applications
 - TypeScript & Tailwind CSS
 - Performance optimization & Core Web Vitals
@@ -397,22 +363,24 @@ Conferences & Events:
 </table>
 
 ### 💰 **Service Rates & Availability**
+
 ```typescript
 interface ServiceRates {
-  consultation: "$100/hour";
-  development: "$80/hour"; 
-  projectBased: "Starting from $3,000";
-  retainer: "Monthly packages available";
-  availability: "30 hours/week";
-  responseTime: "Within 12 hours";
+	consultation: "$100/hour";
+	development: "$80/hour";
+	projectBased: "Starting from $3,000";
+	retainer: "Monthly packages available";
+	availability: "30 hours/week";
+	responseTime: "Within 12 hours";
 }
 ```
 
 ### 🏆 **Client Success Stories**
-> *"Ahmad delivered an exceptional e-commerce platform that increased our sales by 150%. His technical expertise and attention to detail are outstanding."*  
+
+> _"Ahmad delivered an exceptional e-commerce platform that increased our sales by 150%. His technical expertise and attention to detail are outstanding."_  
 > **— Sarah Johnson, CEO, TechStart Inc.**
 
-> *"Working with Ahmad was a game-changer for our startup. He built a scalable platform that handles our growing user base flawlessly."*  
+> _"Working with Ahmad was a game-changer for our startup. He built a scalable platform that handles our growing user base flawlessly."_  
 > **— Mike Chen, CTO, InnovateLab**
 
 [![Book a Consultation](https://img.shields.io/badge/📅_Book_Consultation-Schedule_Call-success?style=for-the-badge&logo=calendly)](https://calendly.com/ali-hassan-dev)
@@ -444,6 +412,7 @@ interface ServiceRates {
 <td align="center" width="25%">
 
 **💼 Full-Time Positions**
+
 - DevOps Engineer roles
 - Remote or Islamabad-based
 - Competitive salary expectations
@@ -453,6 +422,7 @@ interface ServiceRates {
 <td align="center" width="25%">
 
 **🤝 Freelance Projects**
+
 - Web application development
 - Technical consulting
 - Code review & optimization
@@ -462,6 +432,7 @@ interface ServiceRates {
 <td align="center" width="25%">
 
 **👥 Open Source**
+
 - Collaboration opportunities
 - Code contributions
 - Technical discussions
@@ -471,6 +442,7 @@ interface ServiceRates {
 <td align="center" width="25%">
 
 **🎤 Speaking & Teaching**
+
 - Technical workshops
 - Conference presentations
 - Developer mentoring
@@ -481,6 +453,7 @@ interface ServiceRates {
 </table>
 
 ### 📞 **Response Time & Availability**
+
 - ⚡ **Email Response:** Within 24 hours (faster for urgent matters)
 - 📅 **Meeting Availability:** Monday-Friday, 9 AM - 6 PM PKT
 - 🌍 **Time Zone:** Pakistan Standard Time (UTC+5)
@@ -495,30 +468,36 @@ interface ServiceRates {
 <div align="center">
 
 ### 🐍 **Live Contribution Snake Animation**
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg">
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg">
 </picture>
 
-### 📈 **Real-Time Coding Activity**
-<!--START_SECTION:waka-->
-```text
-Week: 04 August, 2024 - 10 August, 2024
+### 📈 **Real-Time OPS Activity**
 
-TypeScript    15 hrs 45 mins  █████████████████████▓░░░   86.2% 
-React         8 hrs 30 mins   ████████████▓░░░░░░░░░░░░   46.7% 
-Next.js       6 hrs 15 mins   ████████▓░░░░░░░░░░░░░░░░   34.3% 
-CSS/SCSS      3 hrs 20 mins   ████▓░░░░░░░░░░░░░░░░░░░░   18.3% 
-Node.js       2 hrs 45 mins   ███▓░░░░░░░░░░░░░░░░░░░░░   15.1% 
+<!--START_SECTION:waka-->
+
+```text
+Week: 15 September, 2025 - 19 September, 2025
+
+Kubernetes    15 hrs 45 mins  █████████████████████▓░░░   86.2%
+CI/CD         8 hrs 30 mins   ████████████▓░░░░░░░░░░░░   46.7%
+Terraform     6 hrs 15 mins   ████████▓░░░░░░░░░░░░░░░░   34.3%
+Ansible       3 hrs 20 mins   ████▓░░░░░░░░░░░░░░░░░░░░   18.3%
+Monitoring    2 hrs 45 mins   ███▓░░░░░░░░░░░░░░░░░░░░░   15.1%
 Docker        1 hr 30 mins    ██▓░░░░░░░░░░░░░░░░░░░░░░    8.2%
 ```
+
 <!--END_SECTION:waka-->
 
 ### 🎵 **Currently Playing on Spotify**
-[![Spotify](https://novatorem-ali-hassan.vercel.app/api/spotify)](https://open.spotify.com/user/your-username)
+
+[![Spotify](https://open.spotify.com/user/your-username)
 
 ### 🎮 **GitHub Profile Game - Collect All Badges!**
+
 <div align="center">
   <img src="https://github.com/1999AZZAR/1999AZZAR/raw/readme/resources/img/grid-snake.svg" alt="Snake Game" width="100%">
 </div>
@@ -538,9 +517,10 @@ Docker        1 hr 30 mins    ██▓░░░░░░░░░░░░░�
 <td align="center" width="25%">
 
 **📊 Project Statistics**
+
 ```
 ✅ 25+ Projects Completed
-🚀 20+ Live Applications  
+🚀 20+ Live Applications
 👥 1000+ Users Served
 ⭐ 4.9/5 Client Rating
 ```
@@ -548,7 +528,8 @@ Docker        1 hr 30 mins    ██▓░░░░░░░░░░░░░�
 </td>
 <td align="center" width="25%">
 
-**💻 Code Contributions**  
+**💻 Code Contributions**
+
 ```
 📝 500+ Commits This Year
 🔄 100+ Pull Requests
@@ -560,6 +541,7 @@ Docker        1 hr 30 mins    ██▓░░░░░░░░░░░░░�
 <td align="center" width="25%">
 
 **🎓 Knowledge Sharing**
+
 ```
 📚 25+ Tutorial Articles
 🎤 10+ Tech Talks Given
@@ -571,6 +553,7 @@ Docker        1 hr 30 mins    ██▓░░░░░░░░░░░░░�
 <td align="center" width="25%">
 
 **🏅 Recognition**
+
 ```
 🏆 Top Contributor Award
 🌟 Community Leader Badge
@@ -584,18 +567,19 @@ Docker        1 hr 30 mins    ██▓░░░░░░░░░░░░░�
 
 ### 📜 **Professional Testimonials**
 
-> *"Ahmad is an exceptional developer with deep technical knowledge and excellent communication skills. His solutions are always scalable and well-architected."*  
+> _"Ahmad is an exceptional developer with deep technical knowledge and excellent communication skills. His solutions are always scalable and well-architected."_  
 > **— Dr. Ahmed Rahman, Tech Lead, Global Systems**
 
-> *"I've worked with many developers, but Ahmad stands out for his attention to detail and commitment to delivering high-quality code."*  
+> _"I've worked with many developers, but Ahmad stands out for his attention to detail and commitment to delivering high-quality code."_  
 > **— Jennifer Liu, Product Manager, StartupXYZ**
 
-> *"Ahmad's expertise in modern web technologies and his ability to solve complex problems make him an invaluable team member."*  
+> _"Ahmad's expertise in modern web technologies and his ability to solve complex problems make him an invaluable team member."_  
 > **— Omar Hassan, Senior Developer, TechCorp**
 
 ### 🎯 **Community Involvement**
+
 - 🌟 **Open Source Contributor** to popular React libraries
-- 👨‍🏫 **Technical Mentor** on various developer platforms  
+- 👨‍🏫 **Technical Mentor** on various developer platforms
 - 🎤 **Speaker** at local tech meetups and conferences
 - 📝 **Technical Writer** with published articles on dev.to
 - 🤝 **Code Reviewer** for junior developers worldwide
@@ -609,35 +593,39 @@ Docker        1 hr 30 mins    ██▓░░░░░░░░░░░░░�
 <div align="center">
 
 ### 🎯 **My Development Philosophy**
-> *"Code is poetry written for machines to understand and humans to maintain. Every line should tell a story, solve a problem, and inspire the next developer who reads it."*  
+
+> _"Code is poetry written for machines to understand and humans to maintain. Every line should tell a story, solve a problem, and inspire the next developer who reads it."_  
 > **— Ahmad Hassan**
 
 ### ⚡ **Core Principles I Follow**
+
 ```typescript
 const developmentPrinciples = {
-  codeQuality: "Clean, readable, and maintainable code is non-negotiable",
-  userExperience: "Every feature should enhance user satisfaction",
-  performance: "Fast applications create happy users", 
-  security: "Security is not optional, it's fundamental",
-  learning: "Stay curious, stay updated, stay humble",
-  collaboration: "Great software is built by great teams",
-  problemSolving: "Understand the problem before building the solution"
+	codeQuality: "Clean, readable, and maintainable code is non-negotiable",
+	userExperience: "Every feature should enhance user satisfaction",
+	performance: "Fast applications create happy users",
+	security: "Security is not optional, it's fundamental",
+	learning: "Stay curious, stay updated, stay humble",
+	collaboration: "Great software is built by great teams",
+	problemSolving: "Understand the problem before building the solution",
 };
 ```
 
 ### 🌟 **Fun Developer Facts**
+
 - ⚡ I can debug code faster than I can order coffee
 - 🎮 My IDE theme changes with my mood (currently Tokyo Night)
-- 📚 I read tech documentation like others read novels  
+- 📚 I read tech documentation like others read novels
 - 🚀 I've deployed on Friday afternoons and lived to tell the tale
 - 🔧 My favorite debugging technique is explaining code to my rubber duck
 - 🌱 I believe in the power of 1% daily improvements
 - ☕ Coffee is my debugging fuel (currently on cup #3 today)
 
 ### 📊 **My Weekly Development Rhythm**
+
 ```
 Monday    ████████████████████████████████████████  Focus: Architecture & Planning
-Tuesday   ████████████████████████████████████████  Focus: Frontend Development  
+Tuesday   ████████████████████████████████████████  Focus: Frontend Development
 Wednesday ████████████████████████████████████████  Focus: Backend & APIs
 Thursday  ████████████████████████████████████████  Focus: Testing & Optimization
 Friday    ████████████████████████████████████████  Focus: Code Review & Deploy
@@ -654,20 +642,21 @@ Weekend   ████████████████████░░░�
 
 ### 📝 **Technical Articles & Tutorials**
 
-| Platform | Articles | Views | Topics Covered |
-|----------|----------|-------|----------------|
-| **Dev.to** | 15+ Articles | 50K+ Views | React, Next.js, Performance |
-| **Medium** | 10+ Articles | 25K+ Views | Full-Stack Development |
-| **Personal Blog** | 20+ Posts | 30K+ Views | Tutorials, Best Practices |
-| **LinkedIn** | 50+ Posts | 100K+ Impressions | Industry Insights |
+| Platform          | Articles     | Views             | Topics Covered              |
+| ----------------- | ------------ | ----------------- | --------------------------- |
+| **Dev.to**        | 15+ Articles | 50K+ Views        | React, Next.js, Performance |
+| **Medium**        | 10+ Articles | 25K+ Views        | Full-Stack Development      |
+| **Personal Blog** | 20+ Posts    | 30K+ Views        | Tutorials, Best Practices   |
+| **LinkedIn**      | 50+ Posts    | 100K+ Impressions | Industry Insights           |
 
 ### 🎥 **Video Content & Workshops**
+
 ```yaml
 YouTube Channel: "AIOps with Opsven"
   - Subscribers: 2.5K+
   - Videos: 25+ Tutorials
   - Total Views: 150K+
-  - Topics: DevOps, AI/MLOps, Cloud Technologies 
+  - Topics: DevOps, AI/MLOps, Cloud Technologies
 
 Workshop Series: "Modern DevOps"
   - Sessions Conducted: 12+
@@ -677,6 +666,7 @@ Workshop Series: "Modern DevOps"
 ```
 
 ### 📚 **Popular Articles & Tutorials**
+
 [![Blog](https://img.shields.io/badge/📝_Latest_Article-React_Performance_Optimization-FF6B6B?style=for-the-badge&logo=medium)](https://your-blog-link.com)
 [![Tutorial](https://img.shields.io/badge/🎥_Video_Tutorial-Next.js_14_Complete_Guide-4ECDC4?style=for-the-badge&logo=youtube)](https://your-youtube-link.com)
 [![Guide](https://img.shields.io/badge/📖_Technical_Guide-MERN_Stack_Architecture-45B7D1?style=for-the-badge&logo=notion)](https://your-guide-link.com)
@@ -697,6 +687,7 @@ Workshop Series: "Modern DevOps"
 
 **🔥 React Performance Tools**
 [![GitHub](https://img.shields.io/github/stars/ahmadhassanraza/react-performance-tools?style=social)](https://github.com/ahmadhassanraza)
+
 - Performance monitoring utilities for React apps
 - 500+ GitHub stars ⭐
 - 50+ contributors worldwide
@@ -707,6 +698,7 @@ Workshop Series: "Modern DevOps"
 
 **⚡ Next.js Starter Template**
 [![GitHub](https://img.shields.io/github/stars/ahmadhassanraza/nextjs-enterprise-starter?style=social)](https://github.com/ahmadhassanraza)
+
 - Enterprise-ready Next.js boilerplate
 - 800+ GitHub stars ⭐
 - TypeScript, Testing, CI/CD included
@@ -719,6 +711,7 @@ Workshop Series: "Modern DevOps"
 
 **🎨 UI Component Library**
 [![GitHub](https://img.shields.io/github/stars/ahmadhassanraza/modern-ui-components?style=social)](https://github.com/ahmadhassanraza)
+
 - Reusable React components
 - Tailwind CSS integration
 - Full TypeScript support
@@ -729,6 +722,7 @@ Workshop Series: "Modern DevOps"
 
 **🛠️ Developer Productivity Tools**
 [![GitHub](https://img.shields.io/github/stars/ahmadhassanraza/dev-productivity-suite?style=social)](https://github.com/ahmadhassanraza)
+
 - VS Code extensions and tools
 - CLI utilities for developers
 - Workflow automation scripts
@@ -739,6 +733,7 @@ Workshop Series: "Modern DevOps"
 </table>
 
 ### 🌟 **Community Contributions**
+
 ```typescript
 interface CommunityImpact {
   openSourceContributions: {
@@ -747,14 +742,14 @@ interface CommunityImpact {
     issuesResolved: 150+,
     codeLinesContributed: 25000+
   },
-  
+
   mentorship: {
     developersHelped: 500+,
     codeReviewsProvided: 300+,
     mentoringHours: 200+,
     technicalQuestionsAnswered: 1000+
   },
-  
+
   communityBuilding: {
     techTalksGiven: 15+,
     workshopsConducted: 12+,
@@ -765,6 +760,7 @@ interface CommunityImpact {
 ```
 
 ### 📊 **Open Source Impact Stats**
+
 ![Open Source Stats](https://github-readme-stats.vercel.app/api?username=ahmadhassanraza&show_icons=true&theme=tokyonight&count_private=false&include_all_commits=false&custom_title=Open%20Source%20Contributions)
 
 [![GitHub Sponsor](https://img.shields.io/badge/💖_Sponsor-Support_My_Work-EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/ahmadhassanraza)
@@ -782,26 +778,26 @@ interface CommunityImpact {
 ```mermaid
 timeline
     title Ahmad Hassan's Professional Journey
-    
+
     2021 : Started Programming
          : First HTML/CSS Projects
          : JavaScript Fundamentals
-         
+
     2022 : Frontend Specialization
          : React Development
          : First Freelance Projects
          : Built Personal Portfolio
-         
+
     2023 : Full-Stack Development
          : MERN Stack Mastery
          : Enterprise Projects
          : Technical Leadership
-         
+
     2024 : Senior Developer
          : Architecture Design
          : Team Leadership
          : Open Source Contributions
-         
+
     2025 : Future Goals
          : AI/ML Integration
          : Cloud Architecture
@@ -809,11 +805,13 @@ timeline
 ```
 
 ### 💼 **Professional Milestones**
+
 <table>
 <tr>
 <td align="center" width="25%">
 
 **2021 - Foundation**
+
 ```
 🎯 Learned Programming Basics
 📚 Completed Web Development Course
@@ -825,6 +823,7 @@ timeline
 <td align="center" width="25%">
 
 **2022 - Specialization**
+
 ```
 ⚛️ Mastered React Ecosystem
 🎨 Developed UI/UX Skills
@@ -836,6 +835,7 @@ timeline
 <td align="center" width="25%">
 
 **2023 - Full-Stack**
+
 ```
 🔗 Mastered Backend Development
 🏗️ Built Complex Applications
@@ -847,6 +847,7 @@ timeline
 <td align="center" width="25%">
 
 **2024 - Leadership**
+
 ```
 🏛️ Enterprise Architecture
 📊 Performance Optimization
@@ -873,6 +874,7 @@ timeline
 <td align="center" width="33%">
 
 **📈 Coding Statistics**
+
 ```
 ⏰ Daily Coding: 6-8 hours
 📅 Active Days: 320+/year
@@ -883,7 +885,8 @@ timeline
 </td>
 <td align="center" width="33%">
 
-**🚀 Project Velocity**  
+**🚀 Project Velocity**
+
 ```
 ✅ Projects Completed: 25+
 🔄 In Progress: 3
@@ -895,6 +898,7 @@ timeline
 <td align="center" width="33%">
 
 **🌟 Community Impact**
+
 ```
 👥 Developers Helped: 500+
 📝 Articles Published: 45+
@@ -907,6 +911,7 @@ timeline
 </table>
 
 ### 📊 **Technology Proficiency Matrix**
+
 ```
 React/Next.js     ██████████████████████████████ 95%
 JavaScript/TS     █████████████████████████████  90%
@@ -919,6 +924,7 @@ AI/ML             ██████████                     30%
 ```
 
 ### 🎯 **GitHub Insights - Advanced Analytics**
+
 ![GitHub Metrics](https://metrics.lecoq.io/ahmadhassanraza?template=classic&base.header=0&base.activity=0&base.community=0&base.repositories=0&base.metadata=0&languages=1&languages.limit=8&languages.threshold=0%25&languages.other=false&languages.colors=github&languages.sections=most-used&languages.indepth=false&languages.analysis.timeout=15&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&config.timezone=Asia%2FKarachi)
 
 </div>
@@ -931,13 +937,15 @@ AI/ML             ██████████                     30%
 
 ### 🎮 **Profile Games & Interactions**
 
-**🐍 Contribution Snake Game** *(Click and drag to control!)*
+**🐍 Contribution Snake Game** _(Click and drag to control!)_
 <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake Game Animation" width="100%">
 
 ### 🎵 **Current Coding Playlist**
+
 [![Spotify Recently Played](https://spotify-recently-played-readme.vercel.app/api?user=your-spotify-username&count=3&unique=true)](https://open.spotify.com/user/your-spotify-username)
 
 ### 🌡️ **Real-Time Status**
+
 ```typescript
 const currentStatus = {
   🟢 availability: "Available for new projects",
@@ -952,6 +960,7 @@ const currentStatus = {
 ```
 
 ### 🎯 **Interactive Profile Stats**
+
 <details>
 <summary><b>🔍 Click to reveal hidden stats & achievements</b></summary>
 
@@ -970,8 +979,9 @@ const currentStatus = {
 ```
 
 **🎮 Secret Developer Stats:**
+
 - 🍕 Pizza slices consumed while coding: 247
-- 🐛 Bugs fixed on first try: 73%  
+- 🐛 Bugs fixed on first try: 73%
 - 🌙 Late night coding sessions: 156
 - 💡 "Aha!" moments per week: 12
 - ⌨️ Fastest typing speed: 95 WPM
@@ -1020,25 +1030,28 @@ const currentStatus = {
 </table>
 
 ### 💬 **Quick Connect Options**
+
 ```typescript
 const quickActions = {
-  "🚀 Need a website?": "Email me with your requirements",
-  "💼 Hiring developers?": "Let's discuss your team needs", 
-  "🤝 Want to collaborate?": "I'm always open to partnerships",
-  "📚 Need mentoring?": "Happy to help fellow developers",
-  "🎤 Want a speaker?": "Available for tech talks & workshops",
-  "💡 Have an idea?": "Let's turn it into reality together"
+	"🚀 Need a website?": "Email me with your requirements",
+	"💼 Hiring developers?": "Let's discuss your team needs",
+	"🤝 Want to collaborate?": "I'm always open to partnerships",
+	"📚 Need mentoring?": "Happy to help fellow developers",
+	"🎤 Want a speaker?": "Available for tech talks & workshops",
+	"💡 Have an idea?": "Let's turn it into reality together",
 };
 ```
 
 ### 🎁 **Special Offers & Freebies**
+
 - 🆓 **Free consultation** for your first project discussion
-- 📊 **Free code review** for open source projects  
+- 📊 **Free code review** for open source projects
 - 🎓 **Free mentoring session** for aspiring developers
 - 📝 **Free technical articles** on modern web development
 - 🛠️ **Free starter templates** for your next project
 
 ### 🌍 **Global Availability**
+
 ```
 🌏 Available for remote work worldwide
 🇵🇰 Based in Islamabad, Pakistan (UTC+5)
@@ -1050,6 +1063,7 @@ const quickActions = {
 ---
 
 ### 📈 **Profile Growth & Engagement**
+
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=ahmadhassanraza&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS" alt="Profile Views"/>
   <img src="https://img.shields.io/github/followers/ahmadhassanraza?style=for-the-badge&color=orange&label=FOLLOWERS" alt="Followers"/>
@@ -1057,29 +1071,36 @@ const quickActions = {
 </div>
 
 ### 💡 **Pro Tip for Visitors**
+
 > 💡 **Did you know?** You can press `Ctrl + F` (or `Cmd + F` on Mac) to quickly search for specific technologies, projects, or information on this profile!
 
 ### 📱 **Share This Profile**
+
 [![Share on Twitter](https://img.shields.io/badge/Share_on-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/intent/tweet?text=Check%20out%20this%20amazing%20developer%20profile!&url=https://github.com/ahmadhassanraza)
 [![Share on LinkedIn](https://img.shields.io/badge/Share_on-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/ahmadhassanraza)
 
 ---
 
-### 🎭 **Easter Egg Section** *(For the curious explorers)*
+### 🎭 **Easter Egg Section** _(For the curious explorers)_
+
 <details>
 <summary><b>🕵️‍♂️ Click here to discover hidden developer secrets...</b></summary>
 
 ```javascript
 // Secret Developer Configuration
 const hiddenSecrets = {
-  favoriteDebuggingMethod: "console.log('Why is this not working?!')",
-  mostUsedGitCommitMessage: "Fix bugs and add features",
-  coffeeToCodeRatio: "1 cup per 50 lines of code",
-  preferredWorkingHours: "Late night when the world is quiet",
-  biggestFear: "npm install taking forever",
-  dreamProject: "Building the next revolutionary AIOps platform",
-  codingPlaylist: ["Lo-fi Hip Hop", "Epic Movie Soundtracks", "8-bit Game Music"],
-  rubberduckDebuggingCount: "Lost count after 1000+"
+	favoriteDebuggingMethod: "console.log('Why is this not working?!')",
+	mostUsedGitCommitMessage: "Fix bugs and add features",
+	coffeeToCodeRatio: "1 cup per 50 lines of code",
+	preferredWorkingHours: "Late night when the world is quiet",
+	biggestFear: "npm install taking forever",
+	dreamProject: "Building the next revolutionary AIOps platform",
+	codingPlaylist: [
+		"Lo-fi Hip Hop",
+		"Epic Movie Soundtracks",
+		"8-bit Game Music",
+	],
+	rubberduckDebuggingCount: "Lost count after 1000+",
 };
 
 console.log("🎉 Congratulations! You found the easter egg!");
@@ -1091,24 +1112,26 @@ console.log("      `---'");
 ```
 
 **🏆 Achievement Unlocked: Profile Explorer!**  
-*You've successfully discovered the hidden section. You must be a true developer! 🕵️‍♂️*
+_You've successfully discovered the hidden section. You must be a true developer! 🕵️‍♂️_
 
 </details>
 
 ---
 
 ### 🔮 **What's Coming Next?**
+
 ```typescript
 const futurePlans = {
-  "2024 Q4": ["Advanced Next.js 14 projects", "AI integration experiments"],
-  "2025 Q1": ["Mobile app development", "DevOps certification"],
-  "2025 Q2": ["Open source library launch", "Tech conference speaking"],
-  "2025 Q3": ["Startup consultation", "Advanced cloud architecture"],
-  "Beyond": ["The next big thing in web development! 🚀"]
+	"2024 Q4": ["Advanced Next.js 14 projects", "AI integration experiments"],
+	"2025 Q1": ["Mobile app development", "DevOps certification"],
+	"2025 Q2": ["Open source library launch", "Tech conference speaking"],
+	"2025 Q3": ["Startup consultation", "Advanced cloud architecture"],
+	Beyond: ["The next big thing in web development! 🚀"],
 };
 ```
 
 ### 🎯 **Final Call-to-Action**
+
 <div align="center">
   <h3>🚀 Ready to Build Something Amazing Together?</h3>
   <p><em>Whether you're looking for a skilled devops engineer, developer, technical consultant, or coding mentor,<br/>
@@ -1120,6 +1143,7 @@ const futurePlans = {
 ---
 
 ### 🏁 **Profile Footer**
+
 <div align="center">
   <p><sub>
     💡 <strong>Made with ❤️ and lots of ☕</strong><br/>
