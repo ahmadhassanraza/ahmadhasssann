@@ -127,7 +127,7 @@ func main() {
 
 ---
 
-## 💼 Technical Expertise | DevOps Tech Stack & Programming Skills
+## 💼 Technical Expertise | DevOps Tech Stack & Skills
 
 | **Category** | **Tools** |
 |--------------|-----------|
