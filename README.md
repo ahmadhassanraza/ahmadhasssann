@@ -395,7 +395,7 @@ interface ServiceRates {
 
 ### 📬 **Get In Touch - Multiple Ways to Connect**
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Professional_Website-FF5722?style=for-the-badge&logoColor=white)](https://ahmadhassanraza.opsven.com/)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Professional_Website-FF5722?style=for-the-badge&logoColor=white)](https://ahr.opsven.com/)
 [![Email](https://img.shields.io/badge/📧_Email-ahmadhassanraza@opsven.com-D14836?style=for-the-badge&logoColor=white)](mailto:ahmadhassanraza@opsven.com)
 [![Calendar](https://img.shields.io/badge/📅_Schedule-Book_Meeting-4285F4?style=for-the-badge&logoColor=white)](https://calendly.com/ahmadhassanraza)
 [![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Professional_Profile-0077B5?style=for-the-badge&logoColor=white)](#)
@@ -475,6 +475,10 @@ interface ServiceRates {
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg">
 </picture>
 
+</div>
+
+<div align="center">
+
 ### 📈 **Real-Time OPS Activity**
 
 <!--START_SECTION:waka-->
@@ -494,13 +498,6 @@ Docker        1 hr 30 mins    ██▓░░░░░░░░░░░░░�
 
 </div>
 
-### 🎮 **GitHub Profile Game - Collect All Badges!**
-
-<div align="center">
-  <img src="https://github.com/1999AZZAR/1999AZZAR/raw/readme/resources/img/grid-snake.svg" alt="Snake Game" width="100%">
-</div>
-
-</div>
 
 ---
 
