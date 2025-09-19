@@ -467,7 +467,7 @@ interface ServiceRates {
 
 <div align="center">
 
-### 🐍 **Live Contribution Snake Animation**
+### 🐍 **Live Contribution**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg">
@@ -492,9 +492,7 @@ Docker        1 hr 30 mins    ██▓░░░░░░░░░░░░░�
 
 <!--END_SECTION:waka-->
 
-### 🎵 **Currently Playing on Spotify**
-
-[![Spotify](https://open.spotify.com/user/your-username)
+</div>
 
 ### 🎮 **GitHub Profile Game - Collect All Badges!**
 
