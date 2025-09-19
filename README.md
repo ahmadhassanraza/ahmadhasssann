@@ -21,7 +21,7 @@
 
 ---
 
-### 🎯 Professional Summary
+## 🎯 Professional Summary
 
 <div align="center">
 
