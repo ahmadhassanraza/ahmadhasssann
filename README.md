@@ -13,9 +13,9 @@
 
 <div align="center">  
   <p>
-    <img src="https://komarev.com/ghpvc/?username=maaclin&color=brightgreen&style=for-the-badge" alt="Profile Views" />
-    <img src="https://img.shields.io/github/followers/maaclin?style=for-the-badge&color=blue" alt="Followers" />
-    <a href="https://www.linkedin.com/in/yossief-s" target="_blank">
+    <img src="https://komarev.com/ghpvc/?username=ahmadhassanraza&color=brightgreen&style=for-the-badge" alt="Profile Views" />
+    <img src="https://img.shields.io/github/followers/ahmadhassanraza?style=for-the-badge&color=blue" alt="Followers" />
+    <a href="https://www.linkedin.com/in/ahmadhassanraza" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   </p>
