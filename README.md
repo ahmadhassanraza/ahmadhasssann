@@ -1,9 +1,3 @@
-<!-- ![alt text](image.png) -->
-<img width="100%" src="./line.gif">
-
-![alt text](image-2.png)
-<img width="100%" src="./line.gif">
-
 <div align="center">
   <a href="https://ahmadhassanraza.com">
     <img 
@@ -24,6 +18,12 @@
 ## 🛠 About
 
 </div>
+
+<!-- ![alt text](image.png) -->
+<img width="100%" src="./line.gif">
+
+![alt text](image-1.png)
+<img width="100%" src="./line.gif">
 
 ``` GO
 package main
