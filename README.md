@@ -11,6 +11,16 @@
   <img src="https://readme-typing-svg.demolab.com/?lines=Streamlining+Ops+with+Opsven;CI/CD+%7C+IaC+%7C+K8s+%7C+Docker+Expert;Cloud-Native+%7C+AWS+Azure+GCP;AI/MLOps+Innovator+%7C+@Opsven;Available+for+DevOps+Positions" alt="Typing Animation" />
 </p>
 
+<div align="center">  
+  <p>
+    <img src="https://komarev.com/ghpvc/?username=maaclin&color=brightgreen&style=for-the-badge" alt="Profile Views" />
+    <img src="https://img.shields.io/github/followers/maaclin?style=for-the-badge&color=blue" alt="Followers" />
+    <a href="https://www.linkedin.com/in/yossief-s" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  </p>
+</div>
+
 ---
 
 <div align="center">
