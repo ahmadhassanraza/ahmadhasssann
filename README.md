@@ -11,14 +11,6 @@
   <img src="https://readme-typing-svg.demolab.com/?lines=Streamlining+Ops+with+Opsven;CI/CD+%7C+IaC+%7C+K8s+%7C+Docker+Expert;Cloud-Native+%7C+AWS+Azure+GCP;AI/MLOps+Innovator+%7C+@Opsven;Available+for+DevOps+Positions" alt="Typing Animation" />
 </p>
 
-<div align="center">
-  
-[![Profile Views](https://komarev.com/ghpvc/?username=ahmadhassanraza&label=Profile%20Views&color=0891b2&style=for-the-badge)](https://github.com/ahmadhassanraza)
-[![GitHub Followers](https://img.shields.io/github/followers/ahmadhassanraza?label=Followers&style=for-the-badge&color=blue&logo=github)](https://github.com/ahmadhassanraza?tab=followers)
-[![Stars](https://img.shields.io/github/stars/ahmadhassanraza?label=Stars&style=for-the-badge/&color=yellow&logo=github)](https://github.com/ahmadhassanraza?tab=repositories)
-
-</div>
-
 ---
 
 ## 🎯 Professional Summary
@@ -424,9 +416,9 @@ interface ServiceRates {
 **🤝 Freelance Projects**
 
 - Web application development
-- DevOps services
 - Technical consulting
 - Code review & optimization
+- Architecture design
 
 </td>
 <td align="center" width="25%">
@@ -484,14 +476,14 @@ interface ServiceRates {
 <!--START_SECTION:waka-->
 
 ```text
-			Week: 15 September, 2025 - 19 September, 2025
+									Week: 15 September, 2025 - 19 September, 2025
 
-			Kubernetes    15 hrs 45 mins  █████████████████████▓░░░   86.2%
-			CI/CD         8 hrs 30 mins   ████████████▓░░░░░░░░░░░░   46.7%
-			Terraform     6 hrs 15 mins   ████████▓░░░░░░░░░░░░░░░░   34.3%
-			Ansible       3 hrs 20 mins   ████▓░░░░░░░░░░░░░░░░░░░░   18.3%
-			Monitoring    2 hrs 45 mins   ███▓░░░░░░░░░░░░░░░░░░░░░   15.1%
-			Docker        1 hr 30 mins    ██▓░░░░░░░░░░░░░░░░░░░░░░    8.2%
+							Kubernetes    15 hrs 45 mins  █████████████████████▓░░░   86.2%
+							CI/CD         8 hrs 30 mins   ████████████▓░░░░░░░░░░░░   46.7%
+							Terraform     6 hrs 15 mins   ████████▓░░░░░░░░░░░░░░░░   34.3%
+							Ansible       3 hrs 20 mins   ████▓░░░░░░░░░░░░░░░░░░░░   18.3%
+							Monitoring    2 hrs 45 mins   ███▓░░░░░░░░░░░░░░░░░░░░░   15.1%
+							Docker        1 hr 30 mins    ██▓░░░░░░░░░░░░░░░░░░░░░░    8.2%
 ```
 
 <!--END_SECTION:waka-->
@@ -616,15 +608,15 @@ const developmentPrinciples = {
 - 🌱 I believe in the power of 1% daily improvements
 - ☕ Coffee is my debugging fuel (currently on cup #3 today)
 
-### 📊 **My Weekly Development Rhythm**
+### 📊 **My Weekly DevOps Rhythm**
 
 ```
-Monday    ████████████████████████████████████████  Focus: Architecture & Planning
-Tuesday   ████████████████████████████████████████  Focus: Frontend Development
-Wednesday ████████████████████████████████████████  Focus: Backend & APIs
-Thursday  ████████████████████████████████████████  Focus: Testing & Optimization
-Friday    ████████████████████████████████████████  Focus: Code Review & Deploy
-Weekend   ████████████████████░░░░░░░░░░░░░░░░░░░░  Focus: Learning & Side Projects
+Monday    ████████████████████████████████████████  Focus: Infrastructure as Code (Terraform, Ansible)
+Tuesday   ████████████████████████████████████████  Focus: CI/CD Pipelines (GitHub Actions, Jenkins)
+Wednesday ████████████████████████████████████████  Focus: Containers & Orchestration (Docker, Kubernetes)
+Thursday  ████████████████████████████████████████  Focus: Monitoring, Logging & Alerts (Prometheus, Grafana, ELK)
+Friday    ████████████████████████████████████████  Focus: Security, Backups & Disaster Recovery
+Weekend   ████████████████████░░░░░░░░░░░░░░░░░░░░  Focus: Certifications & Open Source Projects
 ```
 
 </div>
@@ -639,8 +631,8 @@ Weekend   ████████████████████░░░�
 
 | Platform          | Articles     | Views             | Topics Covered              |
 | ----------------- | ------------ | ----------------- | --------------------------- |
-| **Dev.to**        | 15+ Articles | 50K+ Views        | React, Next.js, Performance |
-| **Medium**        | 10+ Articles | 25K+ Views        | Full-Stack Development      |
+| **Dev.to**        | 15+ Articles | 50K+ Views        | Dcoker, Kubernetes, 		 |
+| **Medium**        | 10+ Articles | 25K+ Views        | DevOps, Cloud				 |
 | **Personal Blog** | 20+ Posts    | 30K+ Views        | Tutorials, Best Practices   |
 | **LinkedIn**      | 50+ Posts    | 100K+ Impressions | Industry Insights           |
 
