@@ -19,7 +19,11 @@
 
 ---
 
+<div align="center">
+
 ## 🛠 About
+
+</div>
 
 ``` GO
 package main
@@ -87,9 +91,9 @@ func main() {
 }
 ```
 
-## 🎯 Professional Summary
-
 <div align="center">
+
+## 🎯 Professional Summary
 
 ```go
 package main
